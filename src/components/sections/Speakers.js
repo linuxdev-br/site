@@ -38,6 +38,11 @@ const TEAM = [
     title: 'Escaping the Surveillance Blackhole with Free Mobile Computing',
   },
   {
+    name: 'Helen Koike',
+    image: 'helen-koike.jpg',
+    title: 'Graphics: An overview of DRM/KMS kernel API, main concepts and some caveats.',
+  },
+  {
     name: 'Gustavo Padovan',
     image: 'gustavo-padovan.jpg',
     title: 'linuxdev-br 2019: Opening Talk',
@@ -70,7 +75,7 @@ const TEAM = [
   },
   {
     name: 'Ricardo Salveti',
-    image: 'speaker.png',
+    image: 'ricardo-salveti.png',
     title: 'Leveraging OP-TEE as a generic HSM via PKCS#11 for secure OTA',
   },
   {
