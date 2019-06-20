@@ -5,37 +5,62 @@ import { StaticQuery, graphql } from 'gatsby';
 import { Section, Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
-import { ReactComponent as AirbnbLogo } from '@images/logos/airbnb.svg';
-import { ReactComponent as AppleMusicLogo } from '@images/logos/apple-music.svg';
-import { ReactComponent as CokeLogo } from '@images/logos/coca-cola.svg';
-import { ReactComponent as NodeLogo } from '@images/logos/nodejs.svg';
-import { ReactComponent as NikeLogo } from '@images/logos/nike.svg';
-import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg';
+//Diamond 
+// one sponsor to enter here. Biggest logo
+//Platinum
+import { ReactComponent as CollaboraLogo } from '@images/logos/collabora.svg';
+import { ReactComponent as IBMLogo } from '@images/logos/ibm.svg';
+//Silver
+import { ReactComponent as MicrochipLogo } from '@images/logos/microchip.svg';
+import { ReactComponent as ProfusionLogo } from '@images/logos/profusion.svg';
+import { ReactComponent as OpensuseLogo } from '@images/logos/opensuse.svg';
+import { ReactComponent as ToradexLogo } from '@images/logos/toradex.svg';
+//Bronze
+import { ReactComponent as LPILogo } from '@images/logos/LPI.svg';
+import { ReactComponent as RedhatLogo } from '@images/logos/redhat.svg';
+import { ReactComponent as VulcanetLogo } from '@images/logos/vulcanet.svg';
+import { ReactComponent as FourlinuxLogo } from '@images/logos/fourlinux.svg';
 
 const LOGOS = [
   {
-    logo: AirbnbLogo,
-    link: 'https://airbnb.io',
+    logo: CollaboraLogo,
+    link: 'https://www.collabora.com',
   },
   {
-    logo: AppleMusicLogo,
-    link: 'https://www.apple.com/in/music/',
+    logo: IBMLogo,
+    link: 'https://www.ibm.com',
   },
   {
-    logo: CokeLogo,
-    link: 'https://coca-cola.com',
+    logo: MicrochipLogo,
+    link: 'https://www.artimar.com.br/microchip-technology/',
   },
   {
-    logo: NodeLogo,
-    link: 'https://nodejs.org',
+    logo: ProfusionLogo,
+    link: 'https://profusion.mobi',
   },
   {
-    logo: NikeLogo,
-    link: 'https://nike.com',
+    logo: OpensuseLogo,
+    link: 'https://www.opensuse.org',
   },
   {
-    logo: InstagramLogo,
-    link: 'https://instagram.com',
+    logo: ToradexLogo,
+    link: 'https://www.toradex.com/',
+  },
+  {
+    logo: LPILogo,
+    link: 'https://lpi.org',
+  },
+  {
+    logo: RedhatLogo,
+    link: 'https://redhat.com',
+  },
+  {
+    logo: VulcanetLogo,
+    link: 'https://vulcanet.com.br/',
+  },
+  {
+    logo: FourlinuxLogo,
+    link: 'https://www.4linux.com.br/',
   },
 ];
 
