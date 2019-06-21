@@ -14,7 +14,7 @@ import {
 } from './style';
 
 import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
-import Logo from '@images/logos/logo-white.svg';
+import Logo from '@images/art/logo-2019.jpg';
 
 const NAV_ITEMS = ['About', 'Speakers', 'Sponsors', 'FAQ'];
 
