@@ -49,7 +49,7 @@ const TEAM = [
   },
   {
     name: 'Eduardo Habkost',
-    image: 'speaker.png',
+    image: 'eduardo-habkost.jpg',
     title: 'CPU vulnerabilities and KVM security',
   },
   {
