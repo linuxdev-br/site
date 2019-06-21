@@ -36,9 +36,11 @@
     "dev": "gatsby develop",
     "start": "npm run dev",
     "format": "prettier --write \"src/**/*.js\"",
-    "clean": "rm -rf .cache && rm -rf public"
+    "clean": "rm -rf .cache && rm -rf public",
+    "deploy:github": "npm run build && node ./scripts/deploy-github"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.15.2"
   }
 }
