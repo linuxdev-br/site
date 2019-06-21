@@ -8,7 +8,7 @@ import { Section, Container } from '@components/global';
 const TEAM = [
   {
     name: 'Arnaldo Carvalho de Melo',
-    image: 'speaker.png',
+    image: 'acme.jpg',
     title: 'BPF is eating the world, dont you see?',
   },
   {
