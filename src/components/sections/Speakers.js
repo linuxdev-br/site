@@ -14,8 +14,7 @@ const TEAM = [
   {
     name: 'maddog',
     image: 'maddog.jpg',
-    title:
-      'Performance: Not just about speed any more',
+    title: 'Performance: Not just about speed any more',
   },
   {
     name: 'Hans Verkuil',
@@ -40,7 +39,8 @@ const TEAM = [
   {
     name: 'Helen Koike',
     image: 'helen-koike.jpg',
-    title: 'Graphics: An overview of DRM/KMS kernel API, main concepts and some caveats.',
+    title:
+      'Graphics: An overview of DRM/KMS kernel API, main concepts and some caveats.',
   },
   {
     name: 'Gustavo Padovan',
@@ -54,7 +54,7 @@ const TEAM = [
   },
   {
     name: 'Ana Rute Mendes',
-    image: 'speaker.png',
+    image: 'anarute.jpg',
     title: 'Git without conflicts',
   },
   {
@@ -130,7 +130,11 @@ const Speakers = () => (
 
               return (
                 <div>
-                  <Img fluid={img.childImageSharp.fluid} alt={name} />
+                  <Img
+                    fluid={img.childImageSharp.fluid}
+                    alt={name}
+                    style={{ 'border-radius': '50%' }}
+                  />
                   <Title>{name}</Title>
                   <Subtitle>{title}</Subtitle>
                 </div>
@@ -162,34 +166,6 @@ const SpeakersGrid = styled.div`
 
   @media (max-width: ${props => props.theme.screen.xs}) {
     grid-gap: 24px;
-  }
-`;
-
-const Art = styled.figure`
-  width: 800px;
-  margin: -80px 0;
-  position: absolute;
-  top: 0;
-  left: 70%;
-
-  @media (max-width: ${props => props.theme.screen.lg}) {
-    top: 20%;
-  }
-
-  @media (max-width: ${props => props.theme.screen.md}) {
-    display: none;
-  }
-`;
-
-const ArtMobile = styled.figure`
-  width: 100%;
-  margin: 0;
-  display: none;
-  margin-top: 64px;
-  margin-bottom: -60%;
-
-  @media (max-width: ${props => props.theme.screen.md}) {
-    display: block;
   }
 `;
 
