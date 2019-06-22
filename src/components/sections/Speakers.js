@@ -29,7 +29,7 @@ const TEAM = [
   },
   {
     name: 'Sergio Prado',
-    image: 'speaker.png',
+    image: 'sergio-prado.jpg',
     title: 'Linux kernel debugging: going beyond printk messages',
   },
   {
