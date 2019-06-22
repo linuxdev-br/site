@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { Section, Container } from '@components/global';
+import ExternalLink from '@common/ExternalLink';
 
 const TEAM = [
   {
@@ -141,6 +142,9 @@ const Speakers = () => (
               );
             })}
           </SpeakersGrid>
+          <StyledExternalLink href="https://cfp.linuxdev-br.net/2019/schedule/">
+            See full agenda &nbsp;&#x2794;
+          </StyledExternalLink>
         </Container>
       </Section>
     )}
@@ -177,6 +181,18 @@ const Title = styled.p`
 const Subtitle = styled.p`
   ${props => props.theme.font_size.small};
   color: ${props => props.theme.color.black.light};
+`;
+
+const StyledExternalLink = styled(ExternalLink)`
+  color: inherit;
+  text-decoration: none;
+  font-size: 2em;
+  margin-top: 1em;
+  float: right;
+
+  &:hover {
+    color: ${props => props.theme.color.black.regular};
+  }
 `;
 
 export default Speakers;

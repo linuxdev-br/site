@@ -58,12 +58,18 @@ const About = () => (
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_masp.childImageSharp.fluid} />
+              <Img
+                fluid={data.art_masp.childImageSharp.fluid}
+                style={{ 'border-radius': '10%' }}
+              />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <Img fluid={data.art_room.childImageSharp.fluid} />
+              <Img
+                fluid={data.art_room.childImageSharp.fluid}
+                style={{ 'border-radius': '10%' }}
+              />
             </Art>
             <div>
               <h2>Schedule</h2>
