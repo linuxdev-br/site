@@ -30,7 +30,7 @@ const FAQS = [
     title: 'Who is the Organizing Committee of the linuxdev-br conference?',
     content: () => (
       <>
-        See the <ExternalLink href="./committe">members</ExternalLink> of our Organizing Committee.
+        See the <ExternalLink href="./committee">members</ExternalLink> of our Organizing Committee.
       </>
     ),
   },
