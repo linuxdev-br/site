@@ -141,7 +141,7 @@ const Speakers = () => (
     render={data => (
       <Section id="speakers" accent="secondary">
         <Container style={{ position: 'relative' }}>
-          <h1>Speakers</h1>
+          <h1>Featured Speakers</h1>
           <SpeakersGrid>
             {TEAM.map(({ name, image, title, link }) => {
               const img = data.allFile.edges.find(
