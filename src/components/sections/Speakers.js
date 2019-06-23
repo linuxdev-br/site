@@ -14,7 +14,7 @@ const TEAM = [
     link: 'https://cfp.linuxdev-br.net/2019/talk/TQWAEX/',
   },
   {
-    name: 'maddog',
+    name: 'John "maddog" Hall',
     image: 'maddog.jpg',
     title: 'Performance: Not just about speed any more',
     link: 'https://cfp.linuxdev-br.net/2019/talk/VLWFZS/',
