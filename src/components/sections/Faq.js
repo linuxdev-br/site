@@ -26,6 +26,14 @@ const FAQS = [
       </>
     ),
   },
+  {
+    title: 'Who is the Organizing Committee of the linuxdev-br conference?',
+    content: () => (
+      <>
+        See the <ExternalLink href="./committe">members</ExternalLink> of our Organizing Committee.
+      </>
+    ),
+  },
 ];
 
 const Faq = () => (
