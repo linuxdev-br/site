@@ -58,13 +58,15 @@ const TEAM = [
   {
     name: 'Helen Koike',
     image: 'helen-koike.jpg',
-    title:'Graphics: An overview of DRM/KMS kernel API, main concepts and some caveats.',
+    title:
+      'Graphics: An overview of DRM/KMS kernel API, main concepts and some caveats.',
     link: 'https://cfp.linuxdev-br.net/2019/talk/RZWKKA/',
   },
   {
     name: 'Alexandre Sousa',
     image: 'speaker.png',
-    title: 'Keynote: Top 5 Reasons for Accelerating Your Cloud Native DevOps with cutting edge Open Source Solutions',
+    title:
+      'Keynote: Top 5 Reasons for Accelerating Your Cloud Native DevOps with cutting edge Open Source Solutions',
     link: 'https://cfp.linuxdev-br.net/2019/talk/HWNVRC/',
   },
   {
@@ -77,7 +79,7 @@ const TEAM = [
     name: 'Eduardo Habkost',
     image: 'eduardo-habkost.jpg',
     title: 'CPU vulnerabilities and KVM security',
-    link:  'https://cfp.linuxdev-br.net/2019/talk/SXR9M8/',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/SXR9M8/',
   },
   {
     name: 'Ana Rute Mendes',
@@ -94,14 +96,15 @@ const TEAM = [
   {
     name: 'Antonio Terceiro',
     image: 'speaker.png',
-    title: 'Keynote: Introducing ICTL, Instituto de Conservação de Tecnologias Livres',
+    title:
+      'Keynote: Introducing ICTL, Instituto de Conservação de Tecnologias Livres',
     link: 'https://cfp.linuxdev-br.net/2019/talk/UJVCLC/',
   },
   {
     name: 'Ricardo Salveti',
     image: 'ricardo-salveti.png',
     title: 'Leveraging OP-TEE as a generic HSM via PKCS#11 for secure OTA',
-    link: 'https://cfp.linuxdev-br.net/2019/talk/GU8RWJ/'
+    link: 'https://cfp.linuxdev-br.net/2019/talk/GU8RWJ/',
   },
   {
     name: 'Leonardo Garcia',
@@ -133,16 +136,6 @@ const Speakers = () => (
             }
           }
         }
-        art_speakers: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "speakers_work" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 1600) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
       }
     `}
     render={data => (
@@ -161,7 +154,7 @@ const Speakers = () => (
                     <Img
                       fluid={img.childImageSharp.fluid}
                       alt={name}
-                      style={{ 'border-radius': '50%' }}
+                      style={{ borderRadius: '50%' }}
                     />
                     <Title>{name}</Title>
                     <Subtitle>{title}</Subtitle>

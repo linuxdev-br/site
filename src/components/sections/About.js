@@ -60,7 +60,7 @@ const About = () => (
             <Art>
               <Img
                 fluid={data.art_masp.childImageSharp.fluid}
-                style={{ 'border-radius': '10%' }}
+                style={{ borderRadius: '10%' }}
               />
             </Art>
           </Grid>
@@ -68,7 +68,7 @@ const About = () => (
             <Art>
               <Img
                 fluid={data.art_room.childImageSharp.fluid}
-                style={{ 'border-radius': '10%' }}
+                style={{ borderRadius: '10%' }}
               />
             </Art>
             <div>
