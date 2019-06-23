@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { Section, Container } from '@components/global';
+import ExternalLink from '@common/ExternalLink';
 
 const About = () => (
   <StaticQuery
@@ -78,6 +79,7 @@ const About = () => (
                 spots – more info soon) at University of São Paulo on August 2
                 and then followed by two days of presentations and discussions
                 at Radisson Paulista Plaza on August 3-4.
+                See the <ExternalLink href="https://cfp.linuxdev-br.net/2019/schedule">agenda</ExternalLink>.
               </p>
             </div>
           </Grid>
