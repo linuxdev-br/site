@@ -129,6 +129,10 @@ const UsedBy = () => (
               </LogoGrid>
             </div>
           ))}
+          <br />
+          <p>Want to sponsor? Check our <StyledExternalLink href="https://github.com/linuxdev-br/conference-doc/raw/master/linuxdev-br_2019-sponsorship-prospectus-v1.pdf">sponsorship prospectus</StyledExternalLink> or talk to us at <StyledExternalLink href="mailto:board@linuxdev-br.net">board@linuxdev-br.net
+            </StyledExternalLink>.
+          </p>
         </StyledContainer>
       </Section>
     )}
@@ -180,6 +184,14 @@ const SponsorsTitle = styled.h2`
   padding: 0.2em;
   font-family: sans-serif;
   font-size: 1.2em;
+`;
+
+const StyledExternalLink = styled(ExternalLink)`
+  color: inherit;
+
+  &:hover {
+    color: ${props => props.theme.color.black.regular};
+  }
 `;
 
 export default UsedBy;
