@@ -10,8 +10,8 @@ const FAQS = [
     title: 'Does linuxdev-br have a Code of Conduct? Where can I find it?',
     content: () => (
       <>
-        Yes, we do have a <ExternalLink href="./code-of-conduct"> Code of Conduct</ExternalLink>
-        and all participants are required to conform to the Code of Conduct. Any kind of harrasment
+        Yes, we do have a <ExternalLink href="./code-of-conduct"> Code of 
+        Conduct</ExternalLink> and all participants are required to conform to the Code of Conduct. Any kind of harrasment
         or unacceptable behavior is unwelcome at this event.
       </>
     ),
