@@ -11,52 +11,79 @@ const TEAM = [
     name: 'Arnaldo Carvalho de Melo',
     image: 'acme.jpg',
     title: 'BPF is eating the world, dont you see?',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/TQWAEX/',
   },
   {
     name: 'maddog',
     image: 'maddog.jpg',
     title: 'Performance: Not just about speed any more',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/VLWFZS/',
   },
   {
     name: 'Hans Verkuil',
     image: 'hans-verkuil.jpg',
     title: 'V4L2: A Status Update',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/FYSJQB/',
   },
   {
     name: 'Eduardo Silva',
     image: 'eduardo-silva.jpg',
     title: 'Logging & Stream Processing on the Edge',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/FV8SRD/',
   },
   {
     name: 'Sergio Prado',
     image: 'sergio-prado.jpg',
     title: 'Linux kernel debugging: going beyond printk messages',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/F7PJJU/',
+  },
+  {
+    name: 'Vagrant Cascadian',
+    image: 'speaker.png',
+    title: 'There and back again, reproducibly!',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/VH9CCY/',
+  },
+  {
+    name: 'Holger Levsen',
+    image: 'speaker.png',
+    title: 'There and back again, reproducibly!',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/VH9CCY/',
   },
   {
     name: 'Alexandre Oliva',
     image: 'lxo.png',
     title: 'Escaping the Surveillance Blackhole with Free Mobile Computing',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/9NSA8J/',
   },
   {
     name: 'Helen Koike',
     image: 'helen-koike.jpg',
-    title:
-      'Graphics: An overview of DRM/KMS kernel API, main concepts and some caveats.',
+    title:'Graphics: An overview of DRM/KMS kernel API, main concepts and some caveats.',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/RZWKKA/',
+  },
+  {
+    name: 'Alexandre Sousa',
+    image: 'speaker.png',
+    title: 'Keynote: Top 5 Reasons for Accelerating Your Cloud Native DevOps with cutting edge Open Source Solutions',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/HWNVRC/',
   },
   {
     name: 'Gustavo Padovan',
     image: 'gustavo-padovan.jpg',
-    title: 'linuxdev-br 2019: Opening Talk',
+    title: 'Keynote: Linux Graphics Revolution',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/KGVPUQ/',
   },
   {
     name: 'Eduardo Habkost',
     image: 'eduardo-habkost.jpg',
     title: 'CPU vulnerabilities and KVM security',
+    link:  'https://cfp.linuxdev-br.net/2019/talk/SXR9M8/',
   },
   {
     name: 'Ana Rute Mendes',
     image: 'anarute.jpg',
     title: 'Git without conflicts',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/YEQ3GV/',
   },
   {
     name: 'João Moreira',
@@ -66,13 +93,8 @@ const TEAM = [
   {
     name: 'Antonio Terceiro',
     image: 'speaker.png',
-    title:
-      'Introducing ICTL: Instituto de name: Conservação de Tecnologias Livres',
-  },
-  {
-    name: 'Gabriel Krisman Bertazi',
-    image: 'speaker.png',
-    title: 'Ext4: A case-insensitive Linux filesystem',
+    title: 'Keynote: Introducing ICTL, Instituto de Conservação de Tecnologias Livres',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/UJVCLC/',
   },
   {
     name: 'Ricardo Salveti',
@@ -85,9 +107,10 @@ const TEAM = [
     title: 'Performance on virtual machines: passing through PCI devices',
   },
   {
-    name: 'Vagrant Cascadian and Holger ,Levsen',
+    name: 'Gabriel Krisman Bertazi',
     image: 'speaker.png',
-    title: 'There and back again, reproducibly!',
+    title: 'Ext4: A case-insensitive Linux filesystem',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/A8LBW3/',
   },
 ];
 
