@@ -27,7 +27,7 @@ const Footer = () => (
       query {
         art_pot: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "customers_pot" }
+          name: { eq: "logo_circle" }
         ) {
           childImageSharp {
             fluid(maxWidth: 960) {
@@ -42,7 +42,7 @@ const Footer = () => (
         <Art>
           <Img
             fluid={data.art_pot.childImageSharp.fluid}
-            style={{ width: 480, maxWidth: '100%', marginBottom: -16 }}
+            style={{ width: 200, maxWidth: '100%', marginBottom: 16 }}
           />
         </Art>
         <FooterWrapper>
