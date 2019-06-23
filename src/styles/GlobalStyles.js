@@ -64,6 +64,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   a {
+    color: inherit;
     cursor: pointer;
   }
 `;
