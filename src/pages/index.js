@@ -7,6 +7,7 @@ import Header from '@sections/Header';
 import About from '@sections/About';
 import Sponsors from '@sections/Sponsors';
 import Speakers from '@sections/Speakers';
+import Faq from '@sections/Faq';
 import Footer from '@sections/Footer';
 
 const IndexPage = () => (
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <About />
     <Speakers />
     <Sponsors />
+    <Faq />
     <Footer />
   </Layout>
 );
