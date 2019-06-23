@@ -89,6 +89,7 @@ const TEAM = [
     name: 'João Moreira',
     image: 'joao-moreira.jpg',
     title: 'Libpulp: we patched user space live patching',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/VUSYEK/',
   },
   {
     name: 'Antonio Terceiro',
@@ -100,11 +101,13 @@ const TEAM = [
     name: 'Ricardo Salveti',
     image: 'ricardo-salveti.png',
     title: 'Leveraging OP-TEE as a generic HSM via PKCS#11 for secure OTA',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/GU8RWJ/'
   },
   {
     name: 'Leonardo Garcia',
     image: 'lagg.jpg',
     title: 'Performance on virtual machines: passing through PCI devices',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/HLABXM/',
   },
   {
     name: 'Gabriel Krisman Bertazi',
