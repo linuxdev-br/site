@@ -89,7 +89,7 @@ const UsedBy = () => (
           {LOGOS.map(({ level, sponsors }) => (
             <div key={level}>
               <SponsorsTitle>{level}</SponsorsTitle>
-              <LogoGrid>
+              <LogoGrid level={level}>
                 {sponsors.map(({ image, link }) => {
                   const img = data.allFile.edges.find(
                     ({ node }) => node.relativePath === image
@@ -132,6 +132,12 @@ const LogoGrid = styled.div`
   @media (max-width: ${props => props.theme.screen.sm}) {
     grid-template-columns: 1fr;
   }
+
+  ${props =>
+    props.level &&
+    `grid-template-columns: ${
+      props.level === 'platinum' ? '1fr 1fr' : '1fr 1fr 1fr 1fr'
+    }`};
 `;
 
 const StyledContainer = styled(Container)`
