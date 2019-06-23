@@ -62,6 +62,31 @@ const LOGOS = [
       },
     ],
   },
+  {
+    level: 'partners',
+    sponsors: [
+      {
+        image: 'ictl.jpg',
+        link: 'https://www.ictl.org.br/',
+      },
+      {
+        image: 'papo-de-sysadmin.jpg',
+        link: 'https://papodesysadmin.org/',
+      },
+      {
+        image: 'flusp.png',
+        link: 'https://flusp.ime.usp.br/',
+      },
+      {
+        image: 'asl.png',
+        link: 'http://softwarelivre.org/',
+      },
+      {
+        image: 'psl-brasil.png',
+        link: 'http://softwarelivre.org/',
+      },
+    ],
+  },
 ];
 
 const UsedBy = () => (
