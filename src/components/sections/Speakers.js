@@ -150,20 +150,22 @@ const Speakers = () => (
         <Container style={{ position: 'relative' }}>
           <h1>Speakers</h1>
           <SpeakersGrid>
-            {TEAM.map(({ name, image, title }) => {
+            {TEAM.map(({ name, image, title, link }) => {
               const img = data.allFile.edges.find(
                 ({ node }) => node.relativePath === image
               ).node;
 
               return (
                 <div>
-                  <Img
-                    fluid={img.childImageSharp.fluid}
-                    alt={name}
-                    style={{ 'border-radius': '50%' }}
-                  />
-                  <Title>{name}</Title>
-                  <Subtitle>{title}</Subtitle>
+                  <StyledExternalLink href={link}>
+                    <Img
+                      fluid={img.childImageSharp.fluid}
+                      alt={name}
+                      style={{ 'border-radius': '50%' }}
+                    />
+                    <Title>{name}</Title>
+                    <Subtitle>{title}</Subtitle>
+                  </StyledExternalLink>
                 </div>
               );
             })}
