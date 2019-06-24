@@ -64,7 +64,7 @@ const TEAM = [
   },
   {
     name: 'Alexandre Sousa',
-    image: 'speaker.png',
+    image: 'alexandre-sousa.png',
     title:
       'Keynote: Top 5 Reasons for Accelerating Your Cloud Native DevOps with cutting edge Open Source Solutions',
     link: 'https://cfp.linuxdev-br.net/2019/talk/HWNVRC/',
