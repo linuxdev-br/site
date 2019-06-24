@@ -10,6 +10,7 @@ import GithubIcon from '@static/icons/github.svg';
 import YoutubeIcon from '@static/icons/youtube.svg';
 import TwitterIcon from '@static/icons/twitter.svg';
 import TelegramIcon from '@static/icons/telegram.svg';
+import MailIcon from '@static/icons/mail.svg';
 
 const SOCIAL = [
   {
@@ -27,6 +28,10 @@ const SOCIAL = [
   {
     icon: TelegramIcon,
     link: 'https://t.me/linuxdevbr',
+  },
+  {
+    icon: MailIcon,
+    link: 'mailto:contact@linuxdev-br.net',
   },
 ];
 
