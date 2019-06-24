@@ -86,7 +86,7 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand><img src={Logo} alt="linuxdev-br" /></Brand>
+          <Brand><Link to="/"><img src={Logo} alt="linuxdev-br" /></Link></Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />
