@@ -7,8 +7,9 @@ import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
 import GithubIcon from '@static/icons/github.svg';
-import InstagramIcon from '@static/icons/instagram.svg';
+import YoutubeIcon from '@static/icons/youtube.svg';
 import TwitterIcon from '@static/icons/twitter.svg';
+import TelegramIcon from '@static/icons/telegram.svg';
 
 const SOCIAL = [
   {
@@ -18,6 +19,14 @@ const SOCIAL = [
   {
     icon: TwitterIcon,
     link: 'https://twitter.com/linuxdevbr',
+  },
+  {
+    icon: YoutubeIcon,
+    link: 'https://www.youtube.com/channel/UCBSpnLjWB7cOsSRz_q2Mr_A',
+  },
+  {
+    icon: TelegramIcon,
+    link: 'https://t.me/linuxdevbr',
   },
 ];
 
