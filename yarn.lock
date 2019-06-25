@@ -4816,6 +4816,13 @@ gatsby-plugin-alias-imports@^1.0.5:
   dependencies:
     "@babel/runtime" "^7.2.0"
 
+gatsby-plugin-client-side-redirect@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-client-side-redirect/-/gatsby-plugin-client-side-redirect-0.0.2.tgz#a1282138dd8e525903e86b9c86a4f9b2e14e26f7"
+  integrity sha512-SIWZnkP3ANvVK0fKPhdRlcvM1uzz8GtvPRlvjpuuVk6M1pAQ12MomI8dD5FddMdFROEBsbEyEIdtc/kW5vrIFg==
+  dependencies:
+    fs-extra "^7.0.0"
+
 gatsby-plugin-google-fonts@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-0.0.4.tgz#dc1402a71f27c3ae6caee10777d10adadf74bd7c"

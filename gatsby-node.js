@@ -3,6 +3,13 @@ const path = require('path');
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
+  const {createRedirect} = actions
+
+  createRedirect({ fromPath: '/2019/06/19/agenda', toPath: '/agenda',  redirectInBrowser: true, isPermanent: true });
+  createRedirect({ fromPath: '/2019/06/19/agenda/', toPath: '/agenda',  redirectInBrowser: true, isPermanent: true });
+  createRedirect({ fromPath: '/2019/06/19/agenda-2', toPath: '/agenda-pt',  redirectInBrowser: true, isPermanent: true });
+  createRedirect({ fromPath: '/2019/06/19/agenda-2/', toPath: '/agenda-pt',  redirectInBrowser: true, isPermanent: true });
+
   return new Promise((resolve, reject) => {
     const blogPostTemplate = path.resolve('src/templates/blogPost.js');
     resolve(
