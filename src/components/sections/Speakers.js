@@ -114,7 +114,7 @@ const TEAM = [
   },
   {
     name: 'Gabriel Krisman Bertazi',
-    image: 'speaker.png',
+    image: 'gabriel-krisman.jpg',
     title: 'Ext4: A case-insensitive Linux filesystem',
     link: 'https://cfp.linuxdev-br.net/2019/talk/A8LBW3/',
   },
