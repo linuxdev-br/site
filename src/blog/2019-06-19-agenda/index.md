@@ -3,17 +3,17 @@ path: '/agenda'
 date: '2019-06-19'
 title: 'Agenda!'
 tags: ['2019', 'agenda', 'conference']
-excerpt: 'Check out the complete schedule for LinuxDev Conf 2019'
+excerpt: 'Check out the complete schedule for linuxdev-br 2019'
 ---
 
-Querida audiência, é com grande prazer que anunciamos o programa para esta edição da Linux Developer Conference Brazil! Nos certificamos que o programa cobre uma ampla gama de tópicos, todos altamente relevantes para a comunidade Linux, acessíveis a públicos de diferentes níveis de expertise e apresentadas por conhecidos e experientes palestrantes. Todos sabemos que o programa da linuxdev-br do ano passado foi incrível, no entanto, acreditamos que o programa deste ano supera o anterior significativamente, nos deixando satisfeitos e orgulhosos da agenda que conseguimos reunir.
+Beloved audience, it is with great excitement that we announce the program for this year’s Linux Developer Conference Brazil — linuxdev-br. We are assured that the program covers a wide range of topics, all highly relevant to the Linux community, accessible to attendees with different levels of expertise and brought by experienced speakers who have been on duty for a long time. Despite the great line-up from last year’s linuxdev-br, we believe that the current program surpassed it by far, and we are both glad and proud of the agenda we were able to assemble.
 
-O programa está disponível aqui https://cfp.linuxdev-br.net/2019/schedule/ . No entanto, vamos adicionar alguns números a estes nomes!
+See the [full program](https://cfp.linuxdev-br.net/2019/schedule/). Yet, let’s add some numbers to these names!
 
-Durante a chamada de trabalhos deste ano, tivemos um total de 44 submissões de palestra, das quais 27 foram revisadas e aceitas por um comitê de revisão com 13 conhecidos desenvolvedores open-source. Entre as palestras aceitas, teremos 5 palestrantes internacionais. Tivemos 7 lightning talks submetidas e aceitas (e mais lightning talks serão aceitas durante o evento). Foram anunciados 3 keynotes e ainda estamos trabalhando para confirmar pelo menos mais 2 nos próximos dias. Finalmente, 2 workshops também acontecerão durante a conferência.
+During this year’s call for presentations, we had a total of 44 talk submissions, from which 27 were accepted by a review board with 13 notorious Open Source developers. Amongst the accepted talks, we have 5 international speakers. We had 7 submitted and accepted lightning talks (and more lightning talks will be accepted during the event). We currently announced 3 keynote talks confirmed and we are working to confirm at least 2 more in the following days. Finally, 2 workshops will also take place during the conference!
 
-Incrível, hein?!
+Awesome, huh?!
 
-Faça parte da Linux Developer Conference Brazil, registre-se agora!
+Join us at the Linux Developer Conference Brazil, [register now](https://linuxdev-br-2019.eventbrite.com.br).
 
-Siga-nos no Twitter, https://twitter.com/linuxdevbr
+Follow us on [Twitter](https://twitter.com/linuxdevbr).
