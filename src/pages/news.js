@@ -5,11 +5,13 @@ import Navbar from '@common/Navbar';
 
 import Header from '@sections/Header';
 import Footer from '@sections/Footer';
+import NewsList from '@sections/NewsList';
 
 const News = () => (
   <Layout>
     <Navbar />
     <Header />
+    <NewsList />
     <Footer />
   </Layout>
 );

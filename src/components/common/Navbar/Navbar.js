@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
-import { Link } from "gatsby"
+import { Link } from 'gatsby';
 
 import { Container } from '@components/global';
 import {
@@ -42,10 +42,10 @@ const NAV = [
     name: 'FAQ',
     anchor: '#faq',
   },
-  /*{
+  {
     name: 'News',
     anchor: 'news',
-  },*/
+  },
 ];
 
 class Navbar extends Component {
@@ -66,14 +66,16 @@ class Navbar extends Component {
   getNavList = ({ mobile = false }) => (
     <NavListWrapper mobile={mobile}>
       <Scrollspy
-        items={NAV.map(({name}) => name.toLowerCase())}
+        items={NAV.map(({ name }) => name.toLowerCase())}
         currentClassName="active"
         mobile={mobile}
         offset={-64}
       >
-        {NAV.map(({name, anchor}) => (
+        {NAV.map(({ name, anchor }) => (
           <NavItem key={name}>
-            <Link to={anchor} onClick={this.closeMobileMenu}>{name}</Link>
+            <Link to={anchor} onClick={this.closeMobileMenu}>
+              {name}
+            </Link>
           </NavItem>
         ))}
       </Scrollspy>
@@ -86,7 +88,11 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand><Link to="/"><img src={Logo} alt="linuxdev-br" /></Link></Brand>
+          <Brand>
+            <Link to="/">
+              <img src={Logo} alt="linuxdev-br" />
+            </Link>
+          </Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />
