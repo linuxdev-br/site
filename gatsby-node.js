@@ -8,7 +8,9 @@ exports.createPages = ({ graphql, actions }) => {
     resolve(
       graphql(`
         query {
-          allMarkdownRemark {
+          allMarkdownRemark(
+            sort: { fields: [frontmatter___date], order: DESC }
+          ) {
             edges {
               node {
                 frontmatter {
@@ -19,13 +21,16 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       `).then(result => {
-        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        const posts = result.data.allMarkdownRemark.edges;
+        posts.forEach(({ node }, index) => {
           const path = node.frontmatter.path;
           createPage({
             path,
             component: blogPostTemplate,
             context: {
               pathSlug: path,
+              prev: index === 0 ? null : posts[index - 1].node,
+              next: index === posts.length - 1 ? null : posts[index + 1].node,
             },
           });
           resolve();
