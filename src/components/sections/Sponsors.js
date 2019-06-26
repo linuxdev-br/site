@@ -8,6 +8,15 @@ import ExternalLink from '@common/ExternalLink';
 
 const LOGOS = [
   {
+    level: 'diamond',
+    sponsors: [
+      {
+        image: 'oracle-linux.png',
+        link: 'https://www.oracle.com/br/linux/',
+      },
+    ],
+  },
+  {
     level: 'platinum',
     sponsors: [
       {
@@ -159,13 +168,21 @@ const LogoGrid = styled.div`
   }
 
   @media (max-width: ${props => props.theme.screen.sm}) {
-    grid-template-columns: 1fr;
+    ${props =>
+      props.level &&
+      `grid-template-columns: ${
+        props.level === 'diamond' ? '1fr'
+          : props.level === 'platinum' ? '1fr'
+          : '1fr 1fr'
+      }`};
   }
 
   ${props =>
     props.level &&
     `grid-template-columns: ${
-      props.level === 'platinum' ? '1fr 1fr' : '1fr 1fr 1fr 1fr'
+      props.level === 'diamond' ? '1fr'
+        : props.level === 'platinum' ? '1fr 1fr'
+        : '1fr 1fr 1fr 1fr'
     }`};
 `;
 
