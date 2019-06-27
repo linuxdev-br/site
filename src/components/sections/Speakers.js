@@ -95,7 +95,7 @@ const TEAM = [
   },
   {
     name: 'Antonio Terceiro',
-    image: 'speaker.png',
+    image: 'terceiro.jpg',
     title:
       'Keynote: Introducing ICTL, Instituto de Conservação de Tecnologias Livres',
     link: 'https://cfp.linuxdev-br.net/2019/talk/UJVCLC/',
