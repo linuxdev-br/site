@@ -39,7 +39,7 @@ const TEAM = [
   },
   {
     name: 'Vagrant Cascadian',
-    image: 'speaker.png',
+    image: 'vagrantupsidedown.png',
     title: 'There and back again, reproducibly!',
     link: 'https://cfp.linuxdev-br.net/2019/talk/VH9CCY/',
   },
