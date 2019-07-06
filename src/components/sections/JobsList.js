@@ -42,6 +42,11 @@ const JOBS = [
       image: 'collabora.png',
       link: 'https://www.collabora.com/careers.html',
     },
+    {
+      name: 'Library Optimization Developer',
+      image: 'ibm.png',
+      link: 'https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=26059&siteid=5016&Areq=241416BR#jobDetails=256537_5016',
+    },
 ]
 
 const JobsList = () => (
