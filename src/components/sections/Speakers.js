@@ -45,7 +45,7 @@ const TEAM = [
   },
   {
     name: 'Holger Levsen',
-    image: 'speaker.png',
+    image: 'holger.png',
     title: 'There and back again, reproducibly!',
     link: 'https://cfp.linuxdev-br.net/2019/talk/VH9CCY/',
   },
