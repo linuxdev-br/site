@@ -47,6 +47,16 @@ const JOBS = [
       image: 'ibm.png',
       link: 'https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=26059&siteid=5016&Areq=241416BR#jobDetails=256537_5016',
     },
+    {
+      name: 'Embedded Linux Intern',
+      image: 'toradex.png',
+      link: 'https://careers.toradex.com/career/job/view?code=TDX_BR_SSCMKT_Inter_2019_07_11',
+    },
+    {
+      name: 'Debian-Linux Software Developer',
+      image: 'toradex.png',
+      link: 'https://careers.toradex.com/career/job/view?code=TX_BR_RD_DEBIAN_2019_04_04',
+    },
 ]
 
 const JobsList = () => (
