@@ -30,6 +30,15 @@ const LOGOS = [
     ],
   },
   {
+    level: 'gold',
+    sponsors: [
+      {
+        image: 'pantacor.png',
+        link: 'https://www.pantahub.com/',
+      },
+    ],
+  },
+  {
     level: 'silver',
     sponsors: [
       {
@@ -173,6 +182,7 @@ const LogoGrid = styled.div`
       `grid-template-columns: ${
         props.level === 'diamond' ? '1fr'
           : props.level === 'platinum' ? '1fr'
+          : props.level === 'gold' ? '1fr'
           : '1fr 1fr'
       }`};
   }
@@ -182,6 +192,7 @@ const LogoGrid = styled.div`
     `grid-template-columns: ${
       props.level === 'diamond' ? '1fr'
         : props.level === 'platinum' ? '1fr 1fr'
+        : props.level === 'gold' ? '1fr 1fr'
         : '1fr 1fr 1fr 1fr'
     }`};
 `;
