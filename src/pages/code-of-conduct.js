@@ -28,8 +28,10 @@ const CodeOfConduct = () => (
 <br /><h3>Contact Information</h3>
 <br /><p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff. Conference staff can be found below or you can also contact hotel staff and ask to be put in touch with the conference organizers.</p>
 <br /><p>If the matter is especially urgent, please call/contact any of these individuals:</p>
-<br /><p>Gustavo Padovan at +1 425 394 6417 (Whatsapp and Telegram)</p>
-<p>Helen Koike at +55 (19) 99917-0956</p>
+<br /><p>Gustavo Padovan at +1-425-3946417@WhatsApp and guspadovan@Telegram</p>
+<p>Helen Koike at +55 19 99917-0956</p>
+<p>João Moreira at +55 62 98458-6680</p>
+<p>Ana Rute at @anarutem@Telegram</p>
 <br /><p>Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
 <br /><h3>License</h3>
 <br /><p>This Code of Conduct was derived from the&nbsp;<a href="https://blog.chef.io/chefconfcodeofconduct/">ChefConf Code of Conduct</a>&nbsp;which was forked from the example policy from the <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">Geek Feminism wiki, created by the Ada Initiative and other volunteers</a>. which is under a Creative Commons Zero license. It is also based on the <a href="https://github.com/python/pycon-code-of-conduct">PyCon Code of Conduct</a>.</p>
