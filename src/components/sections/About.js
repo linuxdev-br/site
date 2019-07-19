@@ -21,13 +21,13 @@ const About = () => (
           }
         }
 
-        art_room: file(
+        art_agenda: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "room" }
+          name: { eq: "agenda" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            fluid(maxWidth: 400) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -67,19 +67,31 @@ const About = () => (
           </Grid>
           <Grid inverse>
             <Art>
-              <Img
-                fluid={data.art_room.childImageSharp.fluid}
-                style={{ borderRadius: '10%' }}
-              />
+              <ExternalLink href="https://cfp.linuxdev-br.net/2019/schedule">
+                <Img
+                  fluid={data.art_agenda.childImageSharp.fluid}
+                  style={{ borderRadius: '10%' }}
+                />
+              </ExternalLink>
             </Art>
             <div>
               <h2>Schedule</h2>
               <p>
                 The conference will start with one day of workshops (limited
-                spots – more info soon) at <ExternalLink href="https://goo.gl/maps/yMqMQWPb758cG6Jw5">University of São Paulo(USP)</ExternalLink> on August 2
-                and then followed by two days of presentations and discussions
-                at <ExternalLink href="https://goo.gl/maps/umaECCj55JUo3bxh8">Radisson Paulista Plaza</ExternalLink> on August 3-4.
-                See the <ExternalLink href="https://cfp.linuxdev-br.net/2019/schedule">agenda</ExternalLink>.
+                spots – more info soon) at{' '}
+                <ExternalLink href="https://goo.gl/maps/yMqMQWPb758cG6Jw5">
+                  University of São Paulo(USP)
+                </ExternalLink>{' '}
+                on August 2 and then followed by two days of presentations and
+                discussions at{' '}
+                <ExternalLink href="https://goo.gl/maps/umaECCj55JUo3bxh8">
+                  Radisson Paulista Plaza
+                </ExternalLink>{' '}
+                on August 3-4. See the{' '}
+                <ExternalLink href="https://cfp.linuxdev-br.net/2019/schedule">
+                  agenda
+                </ExternalLink>
+                .
               </p>
             </div>
           </Grid>
