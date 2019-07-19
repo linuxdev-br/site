@@ -81,6 +81,15 @@ const LOGOS = [
     ],
   },
   {
+    level: 'happyhour',
+    sponsors: [
+      {
+        image: 'google.png',
+        link: 'https://google.com',
+      },
+    ],
+  },
+  {
     level: 'partners',
     sponsors: [
       {
@@ -183,6 +192,7 @@ const LogoGrid = styled.div`
         props.level === 'diamond' ? '1fr'
           : props.level === 'platinum' ? '1fr'
           : props.level === 'gold' ? '1fr'
+          : props.level === 'happyhour' ? '1fr'
           : '1fr 1fr'
       }`};
   }
@@ -193,6 +203,7 @@ const LogoGrid = styled.div`
       props.level === 'diamond' ? '1fr'
         : props.level === 'platinum' ? '1fr 1fr'
         : props.level === 'gold' ? '1fr 1fr'
+        : props.level === 'happyhour' ? '1fr 1fr'
         : '1fr 1fr 1fr 1fr'
     }`};
 `;
