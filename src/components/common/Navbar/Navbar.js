@@ -46,6 +46,10 @@ const NAV = [
     name: 'News',
     anchor: 'news',
   },
+  {
+    name: 'Jobs',
+    anchor: 'jobs',
+  },
 ];
 
 class Navbar extends Component {
