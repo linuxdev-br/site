@@ -34,16 +34,20 @@ const Template = props => {
           >
             <li>
               {prev && (
-                <Link to={prev.frontmatter.path} rel="prev">
-                  ← {prev.frontmatter.title}
-                </Link>
+                <Arrow>
+                  <Link to={prev.frontmatter.path} rel="prev">
+                    ← {prev.frontmatter.title}
+                  </Link>
+                </Arrow>
               )}
             </li>
             <li>
               {next && (
-                <Link to={next.frontmatter.path} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
+                <Arrow>
+                  <Link to={next.frontmatter.path} rel="next">
+                    {next.frontmatter.title} →
+                  </Link>
+                </Arrow>
               )}
             </li>
           </ul>
@@ -74,8 +78,27 @@ const PostBody = styled.div`
 
 const Subtitle = styled.p`
   margin: 1em 0;
+  font-family: sans;
   ${props => props.theme.font_size.small};
-  color: ${props => props.theme.color.black.light};
+  color: #aaa;
+`;
+
+const Arrow = styled.div`
+  a {
+    text-decoration: none;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f8a12e;
+    padding: 0 5px;
+    border-radius: 5px;
+
+    &:hover {
+      color: #444;
+      background-color: #ff9406;
+    }
+  }
 `;
 
 export default Template;

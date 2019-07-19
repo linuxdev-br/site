@@ -63,7 +63,6 @@ const Art = styled.figure`
   margin: 0;
 
   > div {
-
     @media (max-width: ${props => props.theme.screen.md}) {
       width: 100%;
     }
@@ -97,6 +96,13 @@ const Text = styled.div`
 const StyledExternalLink = styled(ExternalLink)`
   color: inherit;
   text-decoration: none;
+  background-color: rgb(61, 149, 22);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: rgb(31, 102, 0) 3px 4px;
+  position: relative;
+  top: 1em;
 
   &:hover {
     color: ${props => props.theme.color.black.regular};

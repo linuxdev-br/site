@@ -37,8 +37,10 @@ const NewsList = () => (
                 const { frontmatter } = edge.node;
                 return (
                   <div>
-                    <spam>{frontmatter.date}</spam>
-                    <Title>{frontmatter.title}</Title>
+                    <BlogDate>{frontmatter.date}</BlogDate>
+                    <Link to={frontmatter.path}>
+                      <Title>{frontmatter.title}</Title>
+                    </Link>
                     <p>{frontmatter.excerpt}</p>
                     <Link to={frontmatter.path}>Read more</Link>
                   </div>
@@ -76,6 +78,11 @@ const PostsGrid = styled.div`
 const Title = styled.p`
   margin-top: 16px;
   color: ${props => props.theme.color.black.regular};
+`;
+
+const BlogDate = styled.span`
+  color: #aaa;
+  font-family: sans;
 `;
 
 export default NewsList;
