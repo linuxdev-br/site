@@ -9,6 +9,7 @@ import ExternalLink from '@common/ExternalLink';
 import GithubIcon from '@static/icons/github.svg';
 import YoutubeIcon from '@static/icons/youtube.svg';
 import TwitterIcon from '@static/icons/twitter.svg';
+import InstagramIcon from '@static/icons/instagram.svg';
 import TelegramIcon from '@static/icons/telegram.svg';
 import MailIcon from '@static/icons/mail.svg';
 
@@ -20,6 +21,10 @@ const SOCIAL = [
   {
     icon: TwitterIcon,
     link: 'https://twitter.com/linuxdevbr',
+  },
+  {
+    icon: InstagramIcon,
+    link: 'https://instagram.com/linuxdevbr',
   },
   {
     icon: YoutubeIcon,
