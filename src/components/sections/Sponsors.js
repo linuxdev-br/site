@@ -63,6 +63,10 @@ const LOGOS = [
     level: 'bronze',
     sponsors: [
       {
+        image: 'foundriesio.png',
+        link: 'https://foundries.io',
+      },
+      {
         image: 'lpi.png',
         link: 'https://lpi.org',
       },
