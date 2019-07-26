@@ -116,6 +116,10 @@ const LOGOS = [
         image: 'psl-brasil.png',
         link: 'http://softwarelivre.org/',
       },
+      {
+        image: 'logo-dne.png',
+        link: 'https://devnaestrada.com.br/',
+      },
     ],
   },
 ];
@@ -161,8 +165,16 @@ const UsedBy = () => (
             </div>
           ))}
           <br />
-          <p>Want to sponsor? Check our <ExternalLink href="https://github.com/linuxdev-br/conference-doc/raw/master/linuxdev-br_2019-sponsorship-prospectus-v1.pdf">sponsorship prospectus</ExternalLink> or talk to us at <ExternalLink href="mailto:board@linuxdev-br.net">board@linuxdev-br.net
-            </ExternalLink>.
+          <p>
+            Want to sponsor? Check our{' '}
+            <ExternalLink href="https://github.com/linuxdev-br/conference-doc/raw/master/linuxdev-br_2019-sponsorship-prospectus-v1.pdf">
+              sponsorship prospectus
+            </ExternalLink>{' '}
+            or talk to us at{' '}
+            <ExternalLink href="mailto:board@linuxdev-br.net">
+              board@linuxdev-br.net
+            </ExternalLink>
+            .
           </p>
         </StyledContainer>
       </Section>
@@ -193,10 +205,14 @@ const LogoGrid = styled.div`
     ${props =>
       props.level &&
       `grid-template-columns: ${
-        props.level === 'diamond' ? '1fr'
-          : props.level === 'platinum' ? '1fr'
-          : props.level === 'gold' ? '1fr'
-          : props.level === 'happyhour' ? '1fr'
+        props.level === 'diamond'
+          ? '1fr'
+          : props.level === 'platinum'
+          ? '1fr'
+          : props.level === 'gold'
+          ? '1fr'
+          : props.level === 'happyhour'
+          ? '1fr'
           : '1fr 1fr'
       }`};
   }
@@ -204,10 +220,14 @@ const LogoGrid = styled.div`
   ${props =>
     props.level &&
     `grid-template-columns: ${
-      props.level === 'diamond' ? '1fr'
-        : props.level === 'platinum' ? '1fr 1fr'
-        : props.level === 'gold' ? '1fr 1fr'
-        : props.level === 'happyhour' ? '1fr 1fr'
+      props.level === 'diamond'
+        ? '1fr'
+        : props.level === 'platinum'
+        ? '1fr 1fr'
+        : props.level === 'gold'
+        ? '1fr 1fr'
+        : props.level === 'happyhour'
+        ? '1fr 1fr'
         : '1fr 1fr 1fr 1fr'
     }`};
 `;
