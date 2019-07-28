@@ -118,6 +118,12 @@ const TEAM = [
     title: 'Ext4: A case-insensitive Linux filesystem',
     link: 'https://cfp.linuxdev-br.net/2019/talk/A8LBW3/',
   },
+  {
+    name: 'Alda Rocha',
+    image: 'alda.jpg',
+    title: 'How bias impacts what we develop',
+    link: 'https://cfp.linuxdev-br.net/2019/talk/ERGSYM/',
+  },
 ];
 
 const Speakers = () => (
