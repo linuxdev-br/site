@@ -75,6 +75,9 @@ class Navbar extends Component {
         mobile={mobile}
         offset={-64}
       >
+        <NavItem>
+          <a href="https://cfp.linuxdev-br.net/2019/schedule/">Agenda</a>
+        </NavItem>
         {NAV.map(({ name, anchor }) => (
           <NavItem key={name}>
             <Link to={anchor} onClick={this.closeMobileMenu}>
