@@ -37,8 +37,8 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://www.eventbrite.com.br/e/linuxdev-br-2019-registration-59091462154?ref=ebtn">
-                  Register now &nbsp;&#x2794;
+                <StyledExternalLink href="https://cfp.linuxdev-br.net/2019/schedule/">
+                  See the Agenda &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
             </Text>
