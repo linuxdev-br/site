@@ -32,7 +32,7 @@ You DON’T need to print your online registration confirmation, an id with your
 
 At the end of August 3rd, we will meet at 6:30pm at the [Pizzaria e Choperia Urca](https://goo.gl/maps/oFPcVP1TLGu5YAcL6)! In this occasion, the official conference happy hour will take place, with free beer and pizza for everyone! This part of the conference is as important as everything else! Make sure you show up :) This place is just a few blocks away from the Radisson.
 
-Besides the official happy hours, we will also meet at **7pm** at Amper Bar, on the Pinheiros neigborhood for an informal time enjoying a nice and relaxed conversation with everyone who is already in São Paulo. See how to get there on [Google Maps](https://goo.gl/maps/bXguHjiFuXHEbzYc9).
+Besides the official happy hours, we will also meet Friday at **7pm** at Amper Bar, on the Pinheiros neigborhood for an informal time enjoying a nice and relaxed conversation with everyone who is already in São Paulo. See how to get there on [Google Maps](https://goo.gl/maps/bXguHjiFuXHEbzYc9).
 
 
 ### Code of Conduct
