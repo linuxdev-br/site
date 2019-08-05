@@ -31,14 +31,6 @@ const NAV = [
     anchor: '#sponsors',
   },
   {
-    name: 'Where',
-    anchor: '#where',
-  },
-  {
-    name: 'Travel',
-    anchor: '#travel',
-  },
-  {
     name: 'FAQ',
     anchor: '#faq',
   },
