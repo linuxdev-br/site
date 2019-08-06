@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Section, Container } from '@components/global';
+import ExternalLink from '@common/ExternalLink';
 
 import FaqItem from '@common/FaqItem';
 
@@ -26,10 +27,22 @@ const FAQS = [
     ),
   },
   {
-    title: 'Who is the Organizing Committee of the linuxdev-br conference?',
+    title: 'Who is behind the linuxdev-br conference?',
     content: () => (
       <>
-        See the <a href="./committee">members</a> of our Organizing Committee.
+        Since our first edition we are a non-profit organization with legal backing
+        from the <ExternalLink href="https://www.ictl.org.br/">Instituto para Conservação
+        de Tecnologias Livres</ExternalLink>. From the community to the community.<br />
+        <br />
+        <h3>Organizing Committee</h3>
+        <br />
+         Ana Rute Mendes (Collabora) - <em>Director's Director, Diversity & Inclusion</em><br />
+         Bruno Dilly (ProFUSION) - <em>Finance Director</em><br />
+         Gabriel F. T. Gomes (IBM) - <em>Program Director</em><br />
+         Gustavo Padovan (Collabora) - <em>Executive Director</em><br />
+         João Moreira -  <em>Communications Director</em><br />
+         <br />
+         Talk to us at <ExternalLink href="mailto:board@linuxdev-br.net">board@linuxdev-br.net</ExternalLink>.
       </>
     ),
   },
