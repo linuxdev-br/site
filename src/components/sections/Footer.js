@@ -28,7 +28,7 @@ const SOCIAL = [
   },
   {
     icon: YoutubeIcon,
-    link: 'https://www.youtube.com/channel/UCBSpnLjWB7cOsSRz_q2Mr_A',
+    link: 'https://www.youtube.com/c/linuxdevbr',
   },
   {
     icon: TelegramIcon,
