@@ -4,6 +4,7 @@ import Layout from '@common/Layout';
 import Navbar from '@common/Navbar';
 
 import Header from '@sections/Header';
+import PastEdition2019 from '@sections/PastEdition2019';
 import About from '@sections/About';
 import Sponsors from '@sections/Sponsors';
 import Speakers from '@sections/Speakers';
@@ -16,6 +17,7 @@ const IndexPage = () => (
   <Layout>
     <Navbar />
     <Header />
+    <PastEdition2019 />
     <About />
     <Speakers />
     <Sponsors />
