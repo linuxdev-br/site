@@ -6,6 +6,41 @@ import Img from 'gatsby-image';
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
+import GithubIcon from '@static/icons/github.svg';
+import YoutubeIcon from '@static/icons/youtube.svg';
+import TwitterIcon from '@static/icons/twitter.svg';
+import InstagramIcon from '@static/icons/instagram.svg';
+import TelegramIcon from '@static/icons/telegram.svg';
+import MailIcon from '@static/icons/mail.svg';
+
+const SOCIAL = [
+  {
+    icon: GithubIcon,
+    link: 'https://github.com/linuxdev-br',
+  },
+  {
+    icon: TwitterIcon,
+    link: 'https://twitter.com/linuxdevbr',
+  },
+  {
+    icon: InstagramIcon,
+    link: 'https://instagram.com/linuxdevbr',
+  },
+  {
+    icon: YoutubeIcon,
+    link: 'https://www.youtube.com/c/linuxdevbr',
+  },
+  {
+    icon: TelegramIcon,
+    link: 'https://t.me/linuxdevbr',
+  },
+  {
+    icon: MailIcon,
+    link: 'mailto:contact@linuxdev-br.net',
+  },
+];
+
+
 const Header = () => (
   <StaticQuery
     query={graphql`
@@ -37,9 +72,15 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://cfp.linuxdev-br.net/2019/schedule/">
-                  See the Agenda &nbsp;&#x2794;
-                </StyledExternalLink>
+          <StyledContainer>
+            <SocialIcons>
+              {SOCIAL.map(({ icon, link }) => (
+                <ExternalLink href={link}>
+                  <img src={icon} alt="link" />
+                </ExternalLink>
+              ))}
+            </SocialIcons>
+          </StyledContainer>
               </p>
             </Text>
           </Grid>
@@ -55,6 +96,20 @@ const HeaderWrapper = styled.header`
 
   @media (max-width: ${props => props.theme.screen.md}) {
     padding-top: 128px;
+  }
+`;
+
+const SocialIcons = styled.div`
+  display: flex;
+
+  img {
+    margin: 0 8px;
+    width: 24px;
+    height: 24px;
+  }
+
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    margin-top: 40px;
   }
 `;
 
@@ -106,6 +161,17 @@ const StyledExternalLink = styled(ExternalLink)`
 
   &:hover {
     color: ${props => props.theme.color.black.regular};
+  }
+`;  
+
+const StyledContainer = styled(Container)`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    flex-direction: column;
+    text-align: center;
   }
 `;
 
