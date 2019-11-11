@@ -56,7 +56,7 @@ const PastEdition2019 = () => (
       <HeaderWrapper>
         <Container>
           <Grid>
-            <Text>
+            <Text> 
               <h1>Thank you for attending!</h1>
               <p>
                 There are not enough words to describe how awesome the 2019
@@ -70,10 +70,15 @@ const PastEdition2019 = () => (
               </p>
             </Text>
             <Art>
-              <Img fluid={data.palco.childImageSharp.fluid} />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SFgMSS7Jis4"
+             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
             </Art>
           </Grid>
           <PhotoGrid>
+            <Art>
+              <Img fluid={data.palco.childImageSharp.fluid} />
+            </Art>
             <Art>
               <Img fluid={data.plateia.childImageSharp.fluid} />
             </Art>
@@ -133,7 +138,7 @@ const Grid = styled.div`
 
 const PhotoGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 64px;
   margin-top: 50px;
