@@ -82,6 +82,18 @@ const Header = () => (
             </SocialIcons>
           </StyledContainer>
               </p>
+            
+            <form action="https://linuxdev-br.us18.list-manage.com/subscribe/post?u=356186e65d41d38461b05282e&amp;id=8729184a2c"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	          <Input>
+            <p>Subscribe for updates</p>
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address" required></input>
+            <Hidden>
+              <input type="text" name="b_356186e65d41d38461b05282e_8729184a2c" tabindex="-1" value=""></input>
+            </Hidden>
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></input>  
+            </Input>
+            </form>
             </Text>
           </Grid>
         </Container>
@@ -146,6 +158,15 @@ const Text = styled.div`
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
   }
+`;
+
+const Hidden = styled.div`
+  position: absolute;
+  left: -5000px;
+`;
+
+const Input = styled.div`
+  margin: 20px;
 `;
 
 const StyledExternalLink = styled(ExternalLink)`
