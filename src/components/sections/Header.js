@@ -66,7 +66,7 @@ const Header = () => (
             </Art>
             <Text>
               <h1>
-                August 2-4, 2019
+                linuxdev-br 2020 in
                 <br />
                 São Paulo, Brazil
               </h1>

@@ -10,87 +10,26 @@ const LOGOS = [
   {
     level: 'diamond',
     sponsors: [
-      {
-        image: 'oracle-linux.png',
-        link: 'https://www.oracle.com/br/linux/',
-      },
     ],
   },
   {
     level: 'platinum',
     sponsors: [
-      {
-        image: 'collabora.png',
-        link: 'https://www.collabora.com',
-      },
-      {
-        image: 'ibm.png',
-        link: 'https://www.ibm.com',
-      },
     ],
   },
   {
     level: 'gold',
     sponsors: [
-      {
-        image: 'pantacor.png',
-        link: 'https://www.pantahub.com/',
-      },
     ],
   },
   {
     level: 'silver',
     sponsors: [
-      {
-        image: 'microchip.png',
-        link: 'https://www.artimar.com.br/microchip-technology/',
-      },
-      {
-        image: 'profusion.png',
-        link: 'https://profusion.mobi',
-      },
-      {
-        image: 'opensuse.png',
-        link: 'https://www.opensuse.org',
-      },
-      {
-        image: 'toradex.png',
-        link: 'https://www.toradex.com/',
-      },
     ],
   },
   {
     level: 'bronze',
     sponsors: [
-      {
-        image: 'foundriesio.png',
-        link: 'https://foundries.io',
-      },
-      {
-        image: 'lpi.png',
-        link: 'https://lpi.org',
-      },
-      {
-        image: 'redhat.png',
-        link: 'https://redhat.com',
-      },
-      {
-        image: 'vulcanet.png',
-        link: 'https://vulcanet.com.br/',
-      },
-      {
-        image: 'fourlinux.png',
-        link: 'https://www.4linux.com.br/',
-      },
-    ],
-  },
-  {
-    level: 'happyhour',
-    sponsors: [
-      {
-        image: 'google.png',
-        link: 'https://google.com',
-      },
     ],
   },
   {
@@ -101,24 +40,8 @@ const LOGOS = [
         link: 'https://www.ictl.org.br/',
       },
       {
-        image: 'papo-de-sysadmin.jpg',
-        link: 'https://papodesysadmin.org/',
-      },
-      {
         image: 'flusp.png',
         link: 'https://flusp.ime.usp.br/',
-      },
-      {
-        image: 'asl.png',
-        link: 'http://softwarelivre.org/',
-      },
-      {
-        image: 'psl-brasil.png',
-        link: 'http://softwarelivre.org/',
-      },
-      {
-        image: 'logo-dne.png',
-        link: 'https://devnaestrada.com.br/',
       },
     ],
   },
@@ -166,11 +89,12 @@ const UsedBy = () => (
           ))}
           <br />
           <p>
-            Want to sponsor? Check our{' '}
+            Want to sponsor?
+            {/* Check our{' '}
             <ExternalLink href="https://github.com/linuxdev-br/conference-doc/raw/master/linuxdev-br_2019-sponsorship-prospectus-v1.pdf">
               sponsorship prospectus
-            </ExternalLink>{' '}
-            or talk to us at{' '}
+            </ExternalLink>{' '} or */}
+            Talk to us at{' '}
             <ExternalLink href="mailto:board@linuxdev-br.net">
               board@linuxdev-br.net
             </ExternalLink>

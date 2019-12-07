@@ -57,7 +57,7 @@ const PastEdition2019 = () => (
         <Container>
           <Grid>
             <Text> 
-              <h1>Thank you for attending!</h1>
+              <h2>Check how it was in 2019!</h2>
               <p>
                 There are not enough words to describe how awesome the 2019
                 edition was, but you can check out the pics and get the feeling

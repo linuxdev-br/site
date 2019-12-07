@@ -23,10 +23,6 @@ const NAV = [
     anchor: '#about',
   },
   {
-    name: 'Speakers',
-    anchor: '#speakers',
-  },
-  {
     name: 'Sponsors',
     anchor: '#sponsors',
   },
@@ -37,10 +33,6 @@ const NAV = [
   {
     name: 'News',
     anchor: 'news',
-  },
-  {
-    name: 'Jobs',
-    anchor: 'jobs',
   },
 ];
 

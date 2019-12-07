@@ -17,12 +17,9 @@ const IndexPage = () => (
   <Layout>
     <Navbar />
     <Header />
-    <PastEdition2019 />
     <About />
-    <Speakers />
+    <PastEdition2019 />
     <Sponsors />
-    <Where />
-    <Travel />
     <Faq />
     <Footer />
   </Layout>

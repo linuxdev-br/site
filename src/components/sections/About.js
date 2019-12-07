@@ -49,7 +49,7 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>The Conference</h2>
+              <h2>Dates to be annouced soon!</h2>
               <p>
                 Linux Developer Conference Brazil aims to take the Brazilian
                 Linux development community to the international level. Whether
@@ -64,36 +64,6 @@ const About = () => (
                 style={{ borderRadius: '10%' }}
               />
             </Art>
-          </Grid>
-          <Grid inverse>
-            <Art>
-              <ExternalLink href="https://cfp.linuxdev-br.net/2019/schedule">
-                <Img
-                  fluid={data.art_agenda.childImageSharp.fluid}
-                  style={{ borderRadius: '10%' }}
-                />
-              </ExternalLink>
-            </Art>
-            <div>
-              <h2>Schedule</h2>
-              <p>
-                The conference will start with one day of workshops (limited
-                spots – more info soon) at{' '}
-                <ExternalLink href="https://goo.gl/maps/yMqMQWPb758cG6Jw5">
-                  University of São Paulo(USP)
-                </ExternalLink>{' '}
-                on August 2 and then followed by two days of presentations and
-                discussions at{' '}
-                <ExternalLink href="https://goo.gl/maps/umaECCj55JUo3bxh8">
-                  Radisson Paulista Plaza
-                </ExternalLink>{' '}
-                on August 3-4. See the{' '}
-                <ExternalLink href="https://cfp.linuxdev-br.net/2019/schedule">
-                  agenda
-                </ExternalLink>
-                .
-              </p>
-            </div>
           </Grid>
         </Container>
       </Section>
