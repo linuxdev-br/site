@@ -49,7 +49,7 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Dates to be annouced soon!</h2>
+              <h2>Dates to be announced soon!</h2>
               <p>
                 Linux Developer Conference Brazil aims to take the Brazilian
                 Linux development community to the international level. Whether
