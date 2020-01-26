@@ -25,6 +25,14 @@ const LOGOS = [
   {
     level: 'silver',
     sponsors: [
+      {
+        image: 'linux-foundation.png',
+        link: 'https://www.linuxfoundation.org/',
+      },
+      {
+        image: 'profusion.png',
+        link: 'https://profusion.mobi/',
+      },
     ],
   },
   {
