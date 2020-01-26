@@ -98,11 +98,11 @@ const UsedBy = () => (
           <br />
           <p>
             Want to sponsor?
-            {/* Check our{' '}
-            <ExternalLink href="https://github.com/linuxdev-br/conference-doc/raw/master/linuxdev-br_2019-sponsorship-prospectus-v1.pdf">
+             Check our{' '}
+            <ExternalLink href="https://github.com/linuxdev-br/conference-doc/raw/master/linuxdev-br2020_sponsorship-prospectus.pdf">
               sponsorship prospectus
-            </ExternalLink>{' '} or */}
-            Talk to us at{' '}
+            </ExternalLink>{' '} or
+            talk to us at{' '}
             <ExternalLink href="mailto:board@linuxdev-br.net">
               board@linuxdev-br.net
             </ExternalLink>
