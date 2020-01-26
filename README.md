@@ -1,6 +1,6 @@
-# linuxdev-br 2019
+# linuxdev-br website
 
-Landpage for linuxdev-br conference 2019 edition.
+Landpage for linuxdev-br conference.
 
 ## Installation
 
