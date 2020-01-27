@@ -49,13 +49,18 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Dates to be announced soon!</h2>
+              <h2>Early bird tickets available!</h2>
               <p>
                 Linux Developer Conference Brazil aims to take the Brazilian
                 Linux development community to the international level. Whether
                 you are just curious and want to understand the Linux ecosystem,
                 someone seeking to contribute to FOSS projects, or even a
                 seasoned collaborator, this conference is for you.
+              </p>
+              <p>
+                <StyledExternalLink href="https://www.eventbrite.com.br/e/linuxdev-br-2020-registration-90329260249?aff=site">
+                  Register Now &nbsp;&#x2794;
+                </StyledExternalLink>
               </p>
             </div>
             <Art>
@@ -114,6 +119,22 @@ const Art = styled.figure`
   margin: 0;
   max-width: 380px;
   width: 100%;
+`;
+
+const StyledExternalLink = styled(ExternalLink)`
+  color: inherit;
+  text-decoration: none;
+  background-color: rgb(61, 149, 22);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: rgb(31, 102, 0) 3px 4px;
+  position: relative;
+  top: 1em;
+
+  &:hover {
+    color: ${props => props.theme.color.black.regular};
+  }
 `;
 
 export default About;

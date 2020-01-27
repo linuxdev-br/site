@@ -40,7 +40,6 @@ const SOCIAL = [
   },
 ];
 
-
 const Header = () => (
   <StaticQuery
     query={graphql`
@@ -65,22 +64,23 @@ const Header = () => (
               <Img fluid={data.art_build.childImageSharp.fluid} />
             </Art>
             <Text>
+              <h2>SAVE THE DATE!</h2>
               <h1>
-                linuxdev-br 2020 in
+                July 16-18, 2020
                 <br />
                 São Paulo, Brazil
               </h1>
               <br />
               <p>
-          <StyledContainer>
-            <SocialIcons>
-              {SOCIAL.map(({ icon, link }) => (
-                <ExternalLink href={link}>
-                  <img src={icon} alt="link" />
-                </ExternalLink>
-              ))}
-            </SocialIcons>
-          </StyledContainer>
+                <StyledContainer>
+                  <SocialIcons>
+                    {SOCIAL.map(({ icon, link }) => (
+                      <ExternalLink href={link}>
+                        <img src={icon} alt="link" />
+                      </ExternalLink>
+                    ))}
+                  </SocialIcons>
+                </StyledContainer>
               </p>
             </Text>
           </Grid>
@@ -162,7 +162,7 @@ const StyledExternalLink = styled(ExternalLink)`
   &:hover {
     color: ${props => props.theme.color.black.regular};
   }
-`;  
+`;
 
 const StyledContainer = styled(Container)`
   display: flex;
