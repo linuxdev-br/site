@@ -21,6 +21,17 @@ const About = () => (
           }
         }
 
+        art_talk: file(
+          sourceInstanceName: { eq: "images" }
+          name: { eq: "talk" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 760) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+
         art_agenda: file(
           sourceInstanceName: { eq: "art" }
           name: { eq: "agenda" }
@@ -28,17 +39,6 @@ const About = () => (
           childImageSharp {
             fluid(maxWidth: 400) {
               ...GatsbyImageSharpFluid
-            }
-          }
-        }
-
-        art_ideas: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "ideas" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
@@ -70,6 +70,30 @@ const About = () => (
               />
             </Art>
           </Grid>
+          <Grid inverse>
+          <Art>
+              <Img
+                fluid={data.art_talk.childImageSharp.fluid}
+                style={{ borderRadius: '10%' }}
+              />
+            </Art>
+            <div>
+              <h2>Call for Presentations will open soon!</h2>
+              <p>
+                We invite everyone to submit talks, workshops and lightning talks for a wide range of topics
+                related to the core of modern Linux systems: Linux kernel, bootloaders,
+                Container & Virtualization, containers and virtualization, display servers
+                 and desktop environments, compilers and toolchains, networking and protocols,
+                 security and much more.
+              </p>
+            </div>
+          </Grid>
+          <VideoGrid>
+          <Video src="https://www.youtube.com/embed/SFgMSS7Jis4"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+          </Video>
+          </VideoGrid>
         </Container>
       </Section>
     )}
@@ -119,6 +143,24 @@ const Art = styled.figure`
   margin: 0;
   max-width: 380px;
   width: 100%;
+`;
+
+const VideoGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+`;
+
+const Video = styled.iframe`
+  width: 100%;
+  max-width: 900px;
+  min-height: 500px;
+  height: 100%;
+  margin: 0;
+  border-radius: 2px;
+  border: 10px solid #fff;
+  box-shadow: 2px 2px 4px #aaa;
 `;
 
 const StyledExternalLink = styled(ExternalLink)`

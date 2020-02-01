@@ -70,18 +70,10 @@ const PastEdition2019 = () => (
               </p>
             </Text>
             <Art>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/SFgMSS7Jis4"
-             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+              <Img fluid={data.palco.childImageSharp.fluid} />
             </Art>
           </Grid>
           <PhotoGrid>
-            <Art>
-              <Img fluid={data.palco.childImageSharp.fluid} />
-            </Art>
-            <Art>
-              <Img fluid={data.plateia.childImageSharp.fluid} />
-            </Art>
             <Art>
               <Img fluid={data.happy_hour.childImageSharp.fluid} />
             </Art>
