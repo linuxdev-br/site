@@ -26,6 +26,10 @@ const LOGOS = [
     level: 'silver',
     sponsors: [
       {
+        image: 'foundriesio.png',
+        link: 'https://foundries.io/',
+      },
+      {
         image: 'linux-foundation.png',
         link: 'https://www.linuxfoundation.org/',
       },
