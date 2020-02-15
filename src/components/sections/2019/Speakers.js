@@ -169,8 +169,8 @@ const Speakers = () => (
               );
             })}
           </SpeakersGrid>
-          <StyledExternalLink href="https://cfp.linuxdev-br.net/2019/schedule/">
-            See full agenda &nbsp;&#x2794;
+          <StyledExternalLink href="https://www.youtube.com/playlist?list=PLswkdXczmU4CtNV5oSeXCjZ-U7lB2yYlE">
+            Watch the talks &nbsp;&#x2794;
           </StyledExternalLink>
         </Container>
       </Section>
