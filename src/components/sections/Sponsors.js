@@ -9,18 +9,15 @@ import ExternalLink from '@common/ExternalLink';
 const LOGOS = [
   {
     level: 'diamond',
-    sponsors: [
-    ],
+    sponsors: [],
   },
   {
     level: 'platinum',
-    sponsors: [
-    ],
+    sponsors: [],
   },
   {
     level: 'gold',
-    sponsors: [
-    ],
+    sponsors: [],
   },
   {
     level: 'silver',
@@ -41,8 +38,7 @@ const LOGOS = [
   },
   {
     level: 'bronze',
-    sponsors: [
-    ],
+    sponsors: [],
   },
   {
     level: 'partners',
@@ -101,12 +97,11 @@ const UsedBy = () => (
           ))}
           <br />
           <p>
-            Want to sponsor?
-             Check our{' '}
+            Want to sponsor? Check our{' '}
             <ExternalLink href="https://github.com/linuxdev-br/conference-doc/raw/master/linuxdev-br2020_sponsorship-prospectus.pdf">
               sponsorship prospectus
-            </ExternalLink>{' '} or
-            talk to us at{' '}
+            </ExternalLink>{' '}
+            or talk to us at{' '}
             <ExternalLink href="mailto:board@linuxdev-br.net">
               board@linuxdev-br.net
             </ExternalLink>
@@ -176,7 +171,7 @@ const StyledContainer = styled(Container)`
 
 const SponsorsTitle = styled.h2`
   text-transform: uppercase;
-  background-color: #f8a12e;
+  background-color: ${props => props.theme.color.secondary};
   text-align: center;
   color: #fff;
   margin-top: 4em;

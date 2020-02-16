@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
 import { Link } from 'gatsby';
 
@@ -15,7 +14,7 @@ import {
 } from './style';
 
 import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
-import Logo from '@images/art/logo-2019.jpg';
+import Logo from '@images/art/logo.png';
 
 const NAV = [
   {

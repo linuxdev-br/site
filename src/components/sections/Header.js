@@ -5,6 +5,8 @@ import Img from 'gatsby-image';
 
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
+import background from '@static/bg.png';
+import Masp from '@images/masp.png';
 
 import GithubIcon from '@static/icons/github.svg';
 import YoutubeIcon from '@static/icons/youtube.svg';
@@ -83,6 +85,9 @@ const Header = () => (
                 </StyledContainer>
               </p>
             </Text>
+            <MaspImg>
+              <img src={Masp} alt="linuxdev-br" />
+            </MaspImg>
           </Grid>
         </Container>
       </HeaderWrapper>
@@ -92,7 +97,15 @@ const Header = () => (
 
 const HeaderWrapper = styled.header`
   background-color: ${props => props.theme.color.primary};
-  padding-top: 96px;
+  background: url(${background}) no-repeat left bottom;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+  z-index: -1;
 
   @media (max-width: ${props => props.theme.screen.md}) {
     padding-top: 128px;
@@ -124,6 +137,14 @@ const Art = styled.figure`
   }
 `;
 
+const MaspImg = styled.figure`
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+`;
+
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -145,22 +166,6 @@ const Text = styled.div`
 
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
-  }
-`;
-
-const StyledExternalLink = styled(ExternalLink)`
-  color: inherit;
-  text-decoration: none;
-  background-color: rgb(61, 149, 22);
-  color: rgb(255, 255, 255);
-  border-radius: 5px;
-  padding: 10px 20px;
-  box-shadow: rgb(31, 102, 0) 3px 4px;
-  position: relative;
-  top: 1em;
-
-  &:hover {
-    color: ${props => props.theme.color.black.regular};
   }
 `;
 
