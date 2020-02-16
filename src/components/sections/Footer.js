@@ -58,12 +58,14 @@ const Footer = () => (
     `}
     render={data => (
       <React.Fragment>
-        {<Art>
-          <Img
-            fluid={data.art_pot.childImageSharp.fluid}
-            style={{ width: 200, maxWidth: '100%', marginBottom: 16 }}
-          />
-        </Art>}
+        {
+          <Art>
+            <Img
+              fluid={data.art_pot.childImageSharp.fluid}
+              style={{ width: 200, maxWidth: '100%', marginBottom: 16 }}
+            />
+          </Art>
+        }
         <FooterWrapper>
           <StyledContainer>
             <SocialIcons>

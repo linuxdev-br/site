@@ -58,12 +58,14 @@ const Footer = () => (
     `}
     render={data => (
       <React.Fragment>
-        {<Art>
-          <Img
-            fluid={data.art_pot.childImageSharp.fluid}
-            style={{ width: 200, maxWidth: '100%', marginBottom: 16 }}
-          />
-        </Art>}
+        {
+          <Art>
+            <Img
+              fluid={data.art_pot.childImageSharp.fluid}
+              style={{ width: 200, maxWidth: '100%', marginBottom: 16 }}
+            />
+          </Art>
+        }
         <FooterWrapper>
           <StyledContainer>
             <SocialIcons>
@@ -95,7 +97,7 @@ const SocialIcons = styled.div`
 `;
 
 const FooterWrapper = styled.footer`
-  background-color: ${props => props.theme.color.primary};
+  background-color: #f8a12e;
   padding: 32px 0;
 `;
 

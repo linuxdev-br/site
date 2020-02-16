@@ -40,14 +40,13 @@ const SOCIAL = [
   },
 ];
 
-
 const Header = () => (
   <StaticQuery
     query={graphql`
       query {
         art_build: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "header" }
+          name: { eq: "header2019" }
         ) {
           childImageSharp {
             fluid(maxWidth: 1400) {
@@ -72,15 +71,15 @@ const Header = () => (
               </h1>
               <br />
               <p>
-          <StyledContainer>
-            <SocialIcons>
-              {SOCIAL.map(({ icon, link }) => (
-                <ExternalLink href={link}>
-                  <img src={icon} alt="link" />
-                </ExternalLink>
-              ))}
-            </SocialIcons>
-          </StyledContainer>
+                <StyledContainer>
+                  <SocialIcons>
+                    {SOCIAL.map(({ icon, link }) => (
+                      <ExternalLink href={link}>
+                        <img src={icon} alt="link" />
+                      </ExternalLink>
+                    ))}
+                  </SocialIcons>
+                </StyledContainer>
               </p>
             </Text>
           </Grid>
@@ -91,7 +90,7 @@ const Header = () => (
 );
 
 const HeaderWrapper = styled.header`
-  background-color: ${props => props.theme.color.primary};
+  background-color: #f8a12e;
   padding-top: 96px;
 
   @media (max-width: ${props => props.theme.screen.md}) {
@@ -162,7 +161,7 @@ const StyledExternalLink = styled(ExternalLink)`
   &:hover {
     color: ${props => props.theme.color.black.regular};
   }
-`;  
+`;
 
 const StyledContainer = styled(Container)`
   display: flex;
