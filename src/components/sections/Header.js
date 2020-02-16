@@ -66,12 +66,16 @@ const Header = () => (
               <Img fluid={data.art_build.childImageSharp.fluid} />
             </Art>
             <Text>
-              <h2>SAVE THE DATE!</h2>
               <h1>
                 July 16-18, 2020
                 <br />
                 São Paulo, Brazil
               </h1>
+              <RegisterLink>
+                <ExternalLink href="https://www.eventbrite.com.br/e/linuxdev-br-2020-registration-90329260249?aff=site">
+                  Register now
+                </ExternalLink>
+              </RegisterLink>
               <br />
               <p>
                 <StyledContainer>
@@ -105,7 +109,6 @@ const HeaderWrapper = styled.header`
   padding-top: 200px;
   padding-bottom: 200px;
   position: relative;
-  z-index: -1;
 
   @media (max-width: ${props => props.theme.screen.md}) {
     padding-top: 128px;
@@ -114,6 +117,13 @@ const HeaderWrapper = styled.header`
 
 const SocialIcons = styled.div`
   display: flex;
+  a {
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 5px 2px;
+    display: flex;
+  }
 
   img {
     margin: 0 8px;
@@ -177,6 +187,24 @@ const StyledContainer = styled(Container)`
   @media (max-width: ${props => props.theme.screen.sm}) {
     flex-direction: column;
     text-align: center;
+  }
+`;
+
+const RegisterLink = styled.div`
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    display: inline-block;
+    font-family: ${props => props.theme.font.primary};
+    margin: 30px 0;
+    padding: 10px 15px;
+    font-size: 1.2em;
+  }
+
+  a:hover {
+    border: 2px solid #0030bf;
   }
 `;
 

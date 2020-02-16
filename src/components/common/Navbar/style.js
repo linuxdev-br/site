@@ -7,7 +7,8 @@ export const Nav = styled.nav`
   margin-bottom: -95px;
   width: 100%;
   top: 0;
-  z-index: 1000;
+  position: relative;
+  z-index: 1;
 `;
 
 export const StyledContainer = styled(Container)`
