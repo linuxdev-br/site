@@ -156,7 +156,7 @@ const Text = styled.div`
 const StyledExternalLink = styled(ExternalLink)`
   color: inherit;
   text-decoration: none;
-  background-color: rgb(61, 149, 22);
+  background-color: ${props => props.theme.color.primary};
   color: rgb(255, 255, 255);
   border-radius: 5px;
   padding: 10px 20px;
