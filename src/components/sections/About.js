@@ -10,9 +10,9 @@ const About = () => (
   <StaticQuery
     query={graphql`
       query {
-        art_masp: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "masp" }
+        art_plateia: file(
+          sourceInstanceName: { eq: "images" }
+          name: { eq: "plateia" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -65,7 +65,7 @@ const About = () => (
             </div>
             <Art>
               <Img
-                fluid={data.art_masp.childImageSharp.fluid}
+                fluid={data.art_plateia.childImageSharp.fluid}
                 style={{ borderRadius: '10%' }}
               />
             </Art>
@@ -165,11 +165,11 @@ const Video = styled.iframe`
 
 const StyledExternalLink = styled(ExternalLink)`
   text-decoration: none;
-  background-color: ${props => props.theme.color.primary};
+  background-color: ${props => props.theme.color.secondary};
   color: rgb(255, 255, 255);
   border-radius: 5px;
   padding: 10px 20px;
-  box-shadow: rgb(31, 102, 0) 3px 4px;
+  box-shadow: rgb(168, 26, 58) 3px 4px;
   position: relative;
   top: 1em;
 
