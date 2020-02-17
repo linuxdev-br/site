@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: '2020 Linux Developer Conference Brazil',
+  description: 'July 16-18, 2020. Join the community!',
   title: 'Linux Developer Conference Brazil',
   url: '',
   author: 'anarute',
