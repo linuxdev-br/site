@@ -107,7 +107,7 @@ const Grid = styled.div`
   text-align: right;
   align-items: center;
   justify-items: center;
-  margin: 24px 0;
+  margin: 50px 0;
 
   ${props =>
     props.inverse &&
