@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-import { Section, Container, Red } from '@components/global';
+import { Section, Container, Red, Box } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
 const LOGOS = [
@@ -85,10 +85,10 @@ const UsedBy = () => (
     render={data => (
       <Section id="sponsors">
         <StyledContainer>
-          <h1>Sponsors</h1>
+          <h1><Box><Red>/ / / </Red>Sponsors</Box></h1>
           {LOGOS.map(({ level, sponsors }) => (
             <div key={level}>
-              <SponsorsTitle><Red>/ / / </Red>{level}</SponsorsTitle>
+              <SponsorsTitle>{level}</SponsorsTitle>
               <LogoGrid level={level}>
                 {sponsors.map(({ image, link }) => {
                   const img = data.allFile.edges.find(
@@ -180,7 +180,7 @@ const StyledContainer = styled(Container)`
 
 const SponsorsTitle = styled.h2`
   text-transform: uppercase;
-  background-color: ${props => props.theme.color.darkgrey};
+  background-color: ${props => props.theme.color.secondary};
   text-align: center;
   color: #fff;
   margin-top: 4em;

@@ -51,20 +51,14 @@ export const Red = styled.span`
   color: ${props => props.theme.color.secondary};
 `;
 
-export const BoxLink = styled.div`
-  a {
+export const Box = styled.div`
     text-transform: uppercase;
-    border: 2px solid #fff;
-    border-radius: 6px;
+    background-color: ${props => props.theme.color.darkgrey};
+    color: white;
     text-decoration: none;
     display: inline-block;
     font-family: ${props => props.theme.font.primary};
-    margin: 35px 0;
-    padding: 16px 20px;
-    font-size: 2em;
-  }
-
-  a:hover {
-    border: 2px solid ${props => props.theme.color.darkgrey};
-  }
+    margin: 0px 0;
+    padding: 10px 20px;
+    font-size: 0.7em;
 `;

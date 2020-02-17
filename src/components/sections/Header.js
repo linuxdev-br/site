@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-import { Container, Red, BoxLink } from '@components/global';
+import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 import background from '@static/bg.png';
 import Masp from '@images/masp.png';
@@ -186,6 +186,24 @@ const StyledContainer = styled(Container)`
   @media (max-width: ${props => props.theme.screen.sm}) {
     flex-direction: column;
     text-align: center;
+  }
+`;
+
+const BoxLink = styled.div`
+  a {
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: ${props => props.theme.font.primary};
+    margin: 35px 0;
+    padding: 16px 20px;
+    font-size: 2em;
+  }
+
+  a:hover {
+    border: 2px solid ${props => props.theme.color.darkgrey};
   }
 `;
 
