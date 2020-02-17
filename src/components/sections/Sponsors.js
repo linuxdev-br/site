@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-import { Section, Container, Red, Box } from '@components/global';
+import { Section, Container, Red, SectionTitle } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
 const LOGOS = [
@@ -85,7 +85,7 @@ const UsedBy = () => (
     render={data => (
       <Section id="sponsors">
         <StyledContainer>
-          <h1><Box><Red>/ / / </Red>Sponsors</Box></h1>
+          <h1><SectionTitle><Red>/ / / </Red>Sponsors</SectionTitle></h1>
           {LOGOS.map(({ level, sponsors }) => (
             <div key={level}>
               <SponsorsTitle>{level}</SponsorsTitle>
@@ -127,7 +127,7 @@ const LogoGrid = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 64px;
   justify-items: center;
-  margin-top: 96px;
+  margin-bottom: 96px;
   width: 100%;
   a {
     display: flex;
@@ -183,7 +183,7 @@ const SponsorsTitle = styled.h2`
   background-color: ${props => props.theme.color.secondary};
   text-align: center;
   color: #fff;
-  margin-top: 4em;
+  margin-bottom: 2em;
   padding: 0.2em;
   font-family: sans-serif;
   font-size: 1.5em;

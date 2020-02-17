@@ -1,6 +1,5 @@
 import React from 'react';
-
-import { Section, Container, Red, Box } from '@components/global';
+import { Section, Container, Red, SectionTitle } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
 import FaqItem from '@common/FaqItem';
@@ -51,7 +50,7 @@ const FAQS = [
 const Faq = () => (
   <Section id="faq" accent="secondary">
     <Container>
-      <h1><Box><Red>/ / / </Red>Frequently Asked Questions</Box></h1>
+      <h1><SectionTitle><Red>/ / / </Red>Frequently Asked Questions</SectionTitle></h1>
       <div>
         {FAQS.map(({ title, content }) => (
           <FaqItem title={title} key={title}>

@@ -51,14 +51,14 @@ export const Red = styled.span`
   color: ${props => props.theme.color.secondary};
 `;
 
-export const Box = styled.div`
+export const SectionTitle = styled.div`
     text-transform: uppercase;
     background-color: ${props => props.theme.color.darkgrey};
     color: white;
     text-decoration: none;
     display: inline-block;
     font-family: ${props => props.theme.font.primary};
-    margin: 0px 0;
+    margin-bottom: 96px;
     padding: 10px 20px;
     font-size: 0.7em;
 `;
