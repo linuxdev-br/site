@@ -22,6 +22,7 @@ const theme = {
     },
     primary: '#2e5031',
     secondary: '#d42149',
+    darkgrey: '#001f24',
     green: '#01823c',
   },
   screen: {

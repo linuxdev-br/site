@@ -97,7 +97,7 @@ const SocialIcons = styled.div`
 `;
 
 const FooterWrapper = styled.footer`
-  background-color: ${props => props.theme.color.primary};
+  background-color: ${props => props.theme.color.darkgrey};
   padding: 32px 0;
 `;
 
@@ -123,6 +123,13 @@ const StyledContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  a {
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 5px 2px;
+    display: flex;
+  }
 
   @media (max-width: ${props => props.theme.screen.sm}) {
     flex-direction: column;

@@ -66,16 +66,11 @@ const Header = () => (
               <Img fluid={data.art_build.childImageSharp.fluid} />
             </Art>
             <Text>
-              <h1>
-                July 16-18, 2020
-                <br />
-                São Paulo, Brazil
-              </h1>
-              <RegisterLink>
+              <BoxLink>
                 <ExternalLink href="https://www.eventbrite.com.br/e/linuxdev-br-2020-registration-90329260249?aff=site">
-                  Register now
+                  <Red>/ / /</Red> Register now
                 </ExternalLink>
-              </RegisterLink>
+              </BoxLink>
               <br />
               <p>
                 <StyledContainer>
@@ -124,6 +119,8 @@ const SocialIcons = styled.div`
     padding: 5px 2px;
     display: flex;
   }
+  z-index: 3;
+
 
   img {
     margin: 0 8px;
@@ -139,6 +136,7 @@ const SocialIcons = styled.div`
 const Art = styled.figure`
   width: 100%;
   margin: 0;
+  z-index: 2;
 
   > div {
     @media (max-width: ${props => props.theme.screen.md}) {
@@ -153,12 +151,12 @@ const MaspImg = styled.figure`
   bottom: 0;
   margin: 0;
   padding: 0;
+  z-index: 1;
 `;
 
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
   grid-gap: 64px;
 
   @media (max-width: ${props => props.theme.screen.md}) {
@@ -166,13 +164,14 @@ const Grid = styled.div`
     grid-gap: 80px;
 
     > ${Art} {
-      order: 2;
+      order: 0;
     }
   }
 `;
 
 const Text = styled.div`
-  justify-self: center;
+  vertical-align: top;
+  z-index: 2;
 
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
@@ -190,21 +189,24 @@ const StyledContainer = styled(Container)`
   }
 `;
 
-const RegisterLink = styled.div`
+const Red = styled.span`
+  color: ${props => props.theme.color.secondary};
+`;
+
+const BoxLink = styled.div`
   a {
     text-transform: uppercase;
+    background-color: ${props => props.theme.color.darkgrey};
     text-decoration: none;
-    border: 2px solid #fff;
-    border-radius: 6px;
     display: inline-block;
     font-family: ${props => props.theme.font.primary};
-    margin: 30px 0;
-    padding: 10px 15px;
-    font-size: 1.2em;
+    margin: 35px 0;
+    padding: 16px 20px;
+    font-size: 2em;
   }
 
   a:hover {
-    border: 2px solid #0030bf;
+    color: ${props => props.theme.color.secondary};
   }
 `;
 
