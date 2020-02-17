@@ -41,6 +41,15 @@ const LOGOS = [
     sponsors: [],
   },
   {
+    level: 'happyhour',
+    sponsors: [
+      {
+        image: 'google.png',
+        link: 'https://google.com',
+      },
+    ],
+  },
+  {
     level: 'partners',
     sponsors: [
       {
