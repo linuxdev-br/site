@@ -66,6 +66,7 @@ const Header = () => (
               <Img fluid={data.art_build.childImageSharp.fluid} />
             </Art>
             <Text>
+              <h3>Join developers, technologists and industry leaders who are creating the next generation of technology with Free and Open Source Software. </h3>
               <BoxLink>
                 <ExternalLink href="https://www.eventbrite.com.br/e/linuxdev-br-2020-registration-90329260249?aff=site">
                   Register now &nbsp;&#x2794;
@@ -173,10 +174,12 @@ const Grid = styled.div`
 
 const Text = styled.div`
   vertical-align: top;
+  margin-bottom: 80px;
   z-index: 2;
 
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
+    margin-bottom: 250px;
   }
 `;
 
@@ -197,6 +200,7 @@ const BoxLink = styled.div`
     border: 2px solid #fff;
     border-radius: 6px;
     text-decoration: none;
+    text-align: center;
     display: inline-block;
     font-family: ${props => props.theme.font.primary};
     margin: 35px 0;
