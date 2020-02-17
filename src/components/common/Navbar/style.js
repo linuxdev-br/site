@@ -8,6 +8,7 @@ export const Nav = styled.nav`
   width: 100%;
   top: 0;
   position: relative;
+  background-color: rgba(256, 256, 256, 0.2);
   z-index: 3;
 
 `;
@@ -64,7 +65,6 @@ export const MobileMenu = styled.div`
 
 export const Brand = styled.div`
   font-family: ${props => props.theme.font.primary};
-  ${props => props.theme.font_size.large};
 `;
 
 export const Mobile = styled.div`
