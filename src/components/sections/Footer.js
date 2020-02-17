@@ -12,6 +12,7 @@ import TwitterIcon from '@static/icons/twitter.svg';
 import InstagramIcon from '@static/icons/instagram.svg';
 import TelegramIcon from '@static/icons/telegram.svg';
 import MailIcon from '@static/icons/mail.svg';
+import background from '@static/bg.png';
 
 const SOCIAL = [
   {
@@ -97,8 +98,11 @@ const SocialIcons = styled.div`
 `;
 
 const FooterWrapper = styled.footer`
-  background-color: ${props => props.theme.color.darkgrey};
-  padding: 32px 0;
+  background-color: ${props => props.theme.color.primary};
+  background: url(${background}) no-repeat left bottom;
+  background-size: cover;
+  color: #fff;
+  padding: 40px 0;
 `;
 
 const Copyright = styled.div`
