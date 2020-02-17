@@ -54,7 +54,8 @@ export const Red = styled.span`
 export const BoxLink = styled.div`
   a {
     text-transform: uppercase;
-    background-color: ${props => props.theme.color.darkgrey};
+    border: 2px solid #fff;
+    border-radius: 6px;
     text-decoration: none;
     display: inline-block;
     font-family: ${props => props.theme.font.primary};
@@ -64,6 +65,6 @@ export const BoxLink = styled.div`
   }
 
   a:hover {
-    color: ${props => props.theme.color.secondary};
+    border: 2px solid ${props => props.theme.color.darkgrey};
   }
 `;

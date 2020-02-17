@@ -68,7 +68,7 @@ const Header = () => (
             <Text>
               <BoxLink>
                 <ExternalLink href="https://www.eventbrite.com.br/e/linuxdev-br-2020-registration-90329260249?aff=site">
-                  <Red>/ / /</Red> Register now &nbsp;&#x2794;
+                  Register now &nbsp;&#x2794;
                 </ExternalLink>
               </BoxLink>
               <br />
