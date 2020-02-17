@@ -106,7 +106,8 @@ const HeaderWrapper = styled.header`
   position: relative;
 
   @media (max-width: ${props => props.theme.screen.md}) {
-    padding-top: 128px;
+    margin-top: -305px;
+    padding-top: 300px;
   }
 `;
 
@@ -162,6 +163,7 @@ const Grid = styled.div`
   @media (max-width: ${props => props.theme.screen.md}) {
     grid-template-columns: 1fr;
     grid-gap: 80px;
+    margin-top; 220px;
 
     > ${Art} {
       order: 0;

@@ -3,12 +3,13 @@ import styled from 'styled-components';
 import { Container } from '@components/global';
 
 export const Nav = styled.nav`
-  padding: 1px 0;
-  margin-bottom: -95px;
+  padding: 0;
+  margin-bottom: -105px;
   width: 100%;
   top: 0;
   position: relative;
-  z-index: 1;
+  z-index: 3;
+
 `;
 
 export const StyledContainer = styled(Container)`
@@ -29,11 +30,10 @@ export const NavListWrapper = styled.div`
       mobile &&
       `
         flex-direction: column;
-        margin-top: 1em;
 
         > ${NavItem} {
           margin: 0;
-          margin-top: 0.75em;
+          margin-top: 0.5em;
         }
       `};
   }
@@ -59,7 +59,7 @@ export const NavItem = styled.li`
 
 export const MobileMenu = styled.div`
   width: 100%;
-  background: ${props => props.theme.color.primary};
+  text-align: right;
 `;
 
 export const Brand = styled.div`
