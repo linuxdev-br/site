@@ -45,3 +45,25 @@ export const Section = styled.section`
         : props.theme.color.primary
     }`};
 `;
+
+
+export const Red = styled.span`
+  color: ${props => props.theme.color.secondary};
+`;
+
+export const BoxLink = styled.div`
+  a {
+    text-transform: uppercase;
+    background-color: ${props => props.theme.color.darkgrey};
+    text-decoration: none;
+    display: inline-block;
+    font-family: ${props => props.theme.font.primary};
+    margin: 35px 0;
+    padding: 16px 20px;
+    font-size: 2em;
+  }
+
+  a:hover {
+    color: ${props => props.theme.color.secondary};
+  }
+`;
