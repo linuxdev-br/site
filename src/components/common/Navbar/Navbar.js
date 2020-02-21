@@ -93,7 +93,7 @@ class Navbar extends Component {
             </Link>
           </Brand>
           <Mobile>
-            <button onClick={this.toggleMobileMenu}  style={{ color: 'white' }}>
+            <button onClick={this.toggleMobileMenu}  style={{ color: 'black' }}>
               <MenuIcon />
             </button>
           </Mobile>

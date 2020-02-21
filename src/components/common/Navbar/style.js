@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   width: 100%;
   top: 0;
   position: relative;
-  background-color: rgba(256, 256, 256, 0.2);
+  background-color: rgba(256, 256, 256, 0.3);
   z-index: 3;
 
 `;
@@ -22,7 +22,7 @@ export const StyledContainer = styled(Container)`
 export const NavListWrapper = styled.div`
   ul {
     list-style: none;
-    margin: 0;
+    margin-bottom: 0.5em;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -34,7 +34,7 @@ export const NavListWrapper = styled.div`
 
         > ${NavItem} {
           margin: 0;
-          margin-top: 0.5em;
+          margin-bottom: 0.5em;
         }
       `};
   }
