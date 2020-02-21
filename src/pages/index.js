@@ -6,6 +6,7 @@ import Navbar from '@common/Navbar';
 import Header from '@sections/Header';
 import PastEdition2019 from '@sections/PastEdition2019';
 import About from '@sections/About';
+import CoC from '@sections/CoC';
 import Sponsors from '@sections/Sponsors';
 import Speakers from '@sections/Speakers';
 import Where from '@sections/Where';
@@ -20,6 +21,8 @@ const IndexPage = () => (
     <About />
     <PastEdition2019 />
     <Sponsors />
+    <CoC />
+    <Where />
     <Faq />
     <Footer />
   </Layout>

@@ -6,16 +6,6 @@ import FaqItem from '@common/FaqItem';
 
 const FAQS = [
   {
-    title: 'Does linuxdev-br have a Code of Conduct? Where can I find it?',
-    content: () => (
-      <>
-        Yes, we do have a <a href="./code-of-conduct"> Code of 
-        Conduct</a> and all participants are required to conform to the Code of Conduct. Any kind of harrasment
-        or unacceptable behavior is unwelcome at this event.
-      </>
-    ),
-  },
-  {
     title: 'What is the Mission of the linuxdev-br conference?',
     content: () => (
       <>
@@ -37,9 +27,9 @@ const FAQS = [
         <br />
          Ana Rute Mendes (Collabora) - <em>Director's Director, Diversity & Inclusion</em><br />
          Bruno Dilly (ProFUSION) - <em>Finance Director</em><br />
-         Gabriel F. T. Gomes (IBM) - <em>Program Director</em><br />
+         Gabriel F. T. Gomes (Suse) - <em>Program Director</em><br />
          Gustavo Padovan (Collabora) - <em>Executive Director</em><br />
-         João Moreira -  <em>Communications Director</em><br />
+         João Moreira(Intel) -  <em></em><br />
          <br />
          Talk to us at <ExternalLink href="mailto:board@linuxdev-br.net">board@linuxdev-br.net</ExternalLink>.
       </>

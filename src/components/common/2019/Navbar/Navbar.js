@@ -19,20 +19,8 @@ import Logo from '@images/art/logo-2019.jpg';
 
 const NAV = [
   {
-    name: 'About',
-    anchor: '#about',
-  },
-  {
-    name: 'Speakers',
-    anchor: '#speakers',
-  },
-  {
-    name: 'Sponsors',
-    anchor: '#sponsors',
-  },
-  {
-    name: 'FAQ',
-    anchor: '#faq',
+    name: '2020',
+    anchor: '/',
   },
   {
     name: 'News',

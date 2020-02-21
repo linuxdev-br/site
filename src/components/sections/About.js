@@ -49,17 +49,17 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Early bird tickets available!</h2>
+              <h2>The conference</h2>
               <p>
                 Linux Developer Conference Brazil aims to take the Brazilian
                 Linux development community to the international level. Whether
                 you are just curious and want to understand the Linux ecosystem,
-                someone seeking to contribute to FOSS projects, or even a
+                someone seeking to contribute to FOSS projects, or a
                 seasoned collaborator, this conference is for you.
               </p>
               <p>
                 <StyledExternalLink href="https://www.eventbrite.com.br/e/linuxdev-br-2020-registration-90329260249?aff=site">
-                  Register Now &nbsp;&#x2794;
+                  Early bird tickets available &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
             </div>
@@ -81,9 +81,9 @@ const About = () => (
               <h2>Call for Presentations will open soon!</h2>
               <p>
                 We invite everyone to submit talks, workshops and lightning talks for a wide range of topics
-                related to the core of modern Linux systems: Linux kernel, bootloaders,
-                Container & Virtualization, containers and virtualization, display servers
-                 and desktop environments, compilers and toolchains, networking and protocols,
+                related to the core of modern Linux systems: Linux kernel, bootloaders, 
+                containers and virtualization, display servers, desktop environments,
+                compilers and toolchains, networking and protocols,
                  security and much more.
               </p>
             </div>

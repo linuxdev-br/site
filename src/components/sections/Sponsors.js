@@ -106,7 +106,9 @@ const UsedBy = () => (
           ))}
           <br />
           <p>
-            Want to sponsor? Check our{' '}
+            <h2>Want to sponsor?</h2>
+            <br />
+            Check our{' '}
             <ExternalLink href="https://github.com/linuxdev-br/conference-doc/raw/master/linuxdev-br2020_sponsorship-prospectus.pdf">
               sponsorship prospectus
             </ExternalLink>{' '}
@@ -167,7 +169,7 @@ const LogoGrid = styled.div`
         : props.level === 'gold'
         ? '1fr 1fr'
         : props.level === 'happyhour'
-        ? '1fr 1fr'
+        ? '1fr 1fr 1fr'
         : '1fr 1fr 1fr 1fr'
     }`};
 `;

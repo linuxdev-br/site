@@ -34,6 +34,10 @@ const NAV = [
     anchor: 'news',
   },
   {
+    name: 'Mission',
+    anchor: 'mission',
+  },
+  {
     name: '2019',
     anchor: '2019',
   },

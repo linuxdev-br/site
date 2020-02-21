@@ -34,7 +34,13 @@ export const Section = styled.section`
   overflow: hidden;
 
   @media (max-width: ${props => props.theme.screen.md}) {
-    padding: 110px 0;
+    ${props =>
+      props.accent &&
+      `padding: ${
+        props.accent === 'background'
+          ? "0"
+          : "110px 0"
+      }`};
   }
 
   ${props =>
@@ -44,6 +50,14 @@ export const Section = styled.section`
         ? props.theme.color.white.dark
         : props.theme.color.primary
     }`};
+
+    ${props =>
+      props.accent &&
+      `padding: ${
+        props.accent === 'background'
+          ? "0"
+          : "128px 0"
+      }`};
 `;
 
 
