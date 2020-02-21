@@ -26,6 +26,10 @@ const NAV = [
     anchor: '#sponsors',
   },
   {
+    name: 'Where',
+    anchor: '#where',
+  },
+  {
     name: 'FAQ',
     anchor: '#faq',
   },

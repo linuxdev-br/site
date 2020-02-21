@@ -6,6 +6,16 @@ import FaqItem from '@common/FaqItem';
 
 const FAQS = [
   {
+    title: 'Are the talks in English or Portuguese?',
+    content: () => (
+      <>
+        We are an international conference, but at same time we also understand
+        that a good part of the attendees are Brazilians, so we will balance the
+        conference with a part of the talks in each language.
+      </>
+    ),
+  },
+  {
     title: 'What is the Mission of the linuxdev-br conference?',
     content: () => (
       <>
