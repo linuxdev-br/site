@@ -75,7 +75,7 @@ const Footer = () => (
                   <img src={icon} alt="link" />
                 </ExternalLink>
               ))}
-            </SocialIcons>
+            </SocialIcons> Linux is a registered trademark of Linus Torvalds.
           </StyledContainer>
         </FooterWrapper>
       </React.Fragment>

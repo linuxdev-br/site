@@ -1,6 +1,6 @@
 const theme = {
   font: {
-    primary: `'Roboto', sans-serif`,
+    primary: `'Unica One', sans-serif`,
     secondary: `'Average', sans-serif`,
   },
   font_size: {
