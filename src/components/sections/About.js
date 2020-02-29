@@ -78,13 +78,18 @@ const About = () => (
               />
             </Art>
             <div>
-              <h2>Call for Presentations will open soon!</h2>
+              <h2>Call for Presentations is now open!</h2>
               <p>
                 We invite everyone to submit talks, workshops and lightning talks for a wide range of topics
                 related to the core of modern Linux systems: Linux kernel, bootloaders, 
                 containers and virtualization, display servers, desktop environments,
                 compilers and toolchains, networking and protocols,
                  security and much more.
+              </p>
+              <p>
+                <StyledExternalLink href="https://program.linuxdev-br.net/2020/cfp">
+                  Submit your proposal &nbsp;&#x2794;
+                </StyledExternalLink>
               </p>
             </div>
           </Grid>
