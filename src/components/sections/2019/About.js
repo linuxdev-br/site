@@ -22,8 +22,8 @@ const About = () => (
         }
 
         art_agenda: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "agenda" }
+          sourceInstanceName: { eq: "images" }
+          name: { eq: "talk" }
         ) {
           childImageSharp {
             fluid(maxWidth: 400) {
@@ -67,12 +67,10 @@ const About = () => (
           </Grid>
           <Grid inverse>
             <Art>
-              <ExternalLink href="https://cfp.linuxdev-br.net/2019/schedule">
                 <Img
                   fluid={data.art_agenda.childImageSharp.fluid}
                   style={{ borderRadius: '10%' }}
                 />
-              </ExternalLink>
             </Art>
             <div>
               <h2>Schedule</h2>
@@ -87,9 +85,9 @@ const About = () => (
                 <ExternalLink href="https://goo.gl/maps/umaECCj55JUo3bxh8">
                   Radisson Paulista Plaza
                 </ExternalLink>{' '}
-                on August 3-4. See the{' '}
-                <ExternalLink href="https://cfp.linuxdev-br.net/2019/schedule">
-                  agenda
+                on August 3-4. Watch the {' '}
+                <ExternalLink href="https://www.youtube.com/playlist?list=PLswkdXczmU4CtNV5oSeXCjZ-U7lB2yYlE">
+                  talks
                 </ExternalLink>
                 .
               </p>
