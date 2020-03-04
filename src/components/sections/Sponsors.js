@@ -62,6 +62,15 @@ const LOGOS = [
       },
     ],
   },
+  {
+    level: 'media partners',
+    sponsors: [
+      {
+        image: 'embarcados.png',
+        link: 'https://www.embarcados.com.br',
+      },
+    ],
+  },
 ];
 
 const UsedBy = () => (
