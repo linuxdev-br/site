@@ -81,6 +81,15 @@ const PastEdition2019 = () => (
               <Img fluid={data.mesa.childImageSharp.fluid} />
             </Art>
           </PhotoGrid>
+          <Text> 
+              <h2>Watch the talks</h2>
+          </Text>
+          <VideoGrid>
+          <Video src="https://www.youtube.com/embed/videoseries?list=PLswkdXczmU4CtNV5oSeXCjZ-U7lB2yYlE"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+          </Video>
+          </VideoGrid>
         </Container>
       </HeaderWrapper>
     )}
@@ -128,12 +137,31 @@ const Grid = styled.div`
   }
 `;
 
+const VideoGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+`;
+
+const Video = styled.iframe`
+  width: 100%;
+  max-width: 900px;
+  min-height: 500px;
+  height: 100%;
+  margin: 0;
+  border-radius: 2px;
+  border: 10px solid #fff;
+  box-shadow: 2px 2px 4px #aaa;
+`;
+
 const PhotoGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 64px;
   margin-top: 50px;
+  margin-bottom: 50px;
 
   @media (max-width: ${props => props.theme.screen.md}) {
     grid-template-columns: 1fr;
