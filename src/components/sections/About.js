@@ -56,12 +56,9 @@ const About = () => (
                 you are just curious and want to understand the Linux ecosystem,
                 someone seeking to contribute to FOSS projects, or a
                 seasoned collaborator, this conference is for you.
+                Unfortunately, we don't know when the next edition of linuxdev-br will happen.
               </p>
-              <p>
-                <StyledExternalLink href="https://www.eventbrite.com.br/e/linuxdev-br-2020-registration-90329260249?aff=site">
-                  Early bird tickets available &nbsp;&#x2794;
-                </StyledExternalLink>
-              </p>
+
             </div>
             <Art>
               <Img
@@ -69,29 +66,6 @@ const About = () => (
                 style={{ borderRadius: '10%' }}
               />
             </Art>
-          </Grid>
-          <Grid inverse>
-          <Art>
-              <Img
-                fluid={data.art_talk.childImageSharp.fluid}
-                style={{ borderRadius: '10%' }}
-              />
-            </Art>
-            <div>
-              <h2>Call for Presentations is now open!</h2>
-              <p>
-                We invite everyone to submit talks, workshops and lightning talks for a wide range of topics
-                related to the core of modern Linux systems: Linux kernel, bootloaders, 
-                containers and virtualization, display servers, desktop environments,
-                compilers and toolchains, networking and protocols,
-                 security and much more.
-              </p>
-              <p>
-                <StyledExternalLink href="https://program.linuxdev-br.net/2020/cfp">
-                  Submit your proposal &nbsp;&#x2794;
-                </StyledExternalLink>
-              </p>
-            </div>
           </Grid>
           <VideoGrid>
           <Video src="https://www.youtube.com/embed/SFgMSS7Jis4"

@@ -20,9 +20,7 @@ const IndexPage = () => (
     <Header />
     <About />
     <PastEdition2019 />
-    <Sponsors />
     <CoC />
-    <Where />
     <Faq />
     <Footer />
   </Layout>
